@@ -1,0 +1,193 @@
+ [
+         "client": {
+             "company":{
+                "fm_company_id": "id",
+                "fm_company_name": "sanofi",
+                "fm_region_list": ["eu"],
+                "fm_country_list": ["fr"],
+                "fm_bu_list": ["diabete"],
+                "fm_fm_access_date": "",
+                "fm_sm_access_date": "",
+                "fm_product_list": ["Apidra","Lantus"],
+             },
+             "user":{
+                "fm_user_id": "",
+                "fm_user_name": "",
+                "fm_firstname": "",
+                "fm_lastname": "",
+                "fm_mail": "",
+                "fm_account_type": "",
+                "fm_spoken_language": "",
+                "fm_position_name": "",
+                "fm_user_country": ""
+             }
+         },
+         "project": {
+             "fm_project_id": "uniq ID",
+             "fm_create_date": "2017/10/04 18:03:07 GMT+0200",
+             "fm_project_product_name": "Lantus",
+             "fm_project_country": "Fr",
+             "fm_campaign_id": null,
+             "fm_camapign_name":"Sanofi Diabete 2017",
+             "fm_source": "CLM or FM or OVERCOAT",
+             "fm_authorized_users":["fm_user_id","fm_user_id"],
+             "clm_id": "ClmBuilderId",
+             "clm_name": "ClmBuilderName",
+             "presentation": {
+                 "fm_presentation_id": "uniq ID",
+                 "fm_presentation_channel": "eDetailing,mailing,website,mobileApp",
+                 "fm_presentation_reps_team": {
+                      "fm_product_portfolio": "["Apidra", "Lantus"] ancienement none CLM product",
+                      "fm_product_position": {
+                          "P1": "Apidra" , "P2":"Lantus"
+                      },
+                      "fm_number_reps": 10,
+                      "fm_average_call_day": 9,
+                      "fm_visited_hcp": ["Cardiologue", "Diabetologue"]
+                 },
+                 "fm_presentation_origin": "NEW or LOC or MASTER",
+                 "fm_presentation_name": "1709_SAN_DZ_DIA_API",
+                 "fm_presentation_deployement_date": "2017/11/01 18:03:07 GMT+0200",
+                 "fm_presentation_expiration_date": "2018/10/04 18:03:07 GMT+0200",
+                 "fm_presentation_approval_code": "",
+                 "fm_presentation_custom_name": "Apidra long flow",
+                 "fm_presentation_product_name": "Lantus",
+                 "fm_presentation_crm_name": "MI or VEEVA",
+                 "fm_presentation_device": "IPAD or SURFACE or WEBSITE",
+                 "fm_presentation_export_type": "MONO OR MULTI",
+                 "fm_presentation_custom_marketer_message": "Good luck with this presentation fill free to check your reps speech in the training functionality.",
+                 "fm_presentation_smpc": ["apidra_500_smpc.pdf", "apidra_600_smpc.pdf"],
+                 "clm_presentation_id":"",
+                 "clm_presentation_name":"",
+                 "fm_version": {
+                     "fm_version_id": "uniq ID",
+                     "fm_version_generate_date": null,
+                     "fm_version_export_date": null,
+                     "fm_version_flow_count": "number of total flow",
+                     "fm_sm_active": true,
+                     "fm_sm_update": true
+                 },
+                 "crm_mv_survey": [{
+                     "crm_mv_question": "Text question provided by parameters.xml",
+                     "crm_mv_answer": "Text answer provided by parameters.xml",
+                     "crm_mv_screen_location": ["Array fm_screen_id"],
+                     "crm_mv_survey_type": "Drop , Text",
+                     "fm_crm_survey_id": ""
+                 }]
+             },
+             "sequence": [{
+                 "fm_sequence_id": null,
+                 "fm_sequence_name": "1609_SAN_DZ_DIA_API_xxxxx",
+                 "fm_sequence_version": "hjghjghg575576",
+                 "fm_sequence_is_shared": false,
+                 "flows": [{
+                     "id": "flow1",
+                     "custom_name": "Apidra long flow",
+                     "product": [],
+                     "marketers_custom_message": "This is an update please take care to the change.",
+                     "screen": [{
+                         "fm_screen_id": "uniq id",
+                         "fm_origin_version": "refer to origin version ID",
+                         "fm_screen_name": "Study schmurtz conclusion",
+                         "fm_refer_to": "1_10.00",
+                         "fm_position_id": "1_10.10",
+                         "fm_level_importance":"MUST,HIGH,STANDARD,LOW",
+                         "fm_chapter": null,
+                         "fm_sub_chapter": null,
+                         "fm_thumbnail": "image base64",
+                         "fm_datatrackname": null,
+                         "fm_category": null,
+                         "fm_key_message": null,
+                         "fm_objective": null,
+                         "fm_selling_steps": null,
+                         "fm_custom_data": null,
+                         "fm_product": "Apidra",
+                         "fm_reps_speech": "On this screen please insist on the under diagnosed situation",
+                         "fm_popup": [{
+                                 "fm_name": "poup_name_1",
+                                 "fm_category": "category",
+                                 "custom_message": "freetext"
+                             },
+                             {
+                                 "fm_name": "poup_name_2",
+                                 "fm_category": "category",
+                                 "custom_message": "freetext"
+                             }
+                         ],
+                         "fm_flip_flap":[{
+                               "fm_flip_name": "flip_name",
+                               "fm_flip_category": "category",
+                               "fm_flip_custom_message": "freetext",
+                               "fm_flap_name": "flip_name",
+                               "fm_flap_category": "category",
+                               "fm_flap_custom_message": "freetext"
+                         }],
+                         "fm_pdf": [{
+                             "fm_name": null
+                         }],
+                         "fm_reference": true,
+                         "fm_video": [{
+                             "fm_name": null,
+                             "fm_total_duration": null
+                         }],
+                         "fm_tap_animation": [{
+                             "fm_name": null
+                         }]
+                     }]
+                 }]
+             }],
+             "flows":{
+                  "flow1": ["fm_screen_id","fm_screen_id"]
+             },
+             "last_call_report": {
+                 "general_settings":{
+                      "module_lcr": "ON or OFF",
+                      "survey_module": "ON or OFF",
+                      "survey_copy_in_crm": "ON or OFF",
+                      "sharing_hcp_info_company_level": "ON or OFF",
+                      "sharing_hcp_infos_bu_level": "ON or OFF",
+                      "survery_per_call_quantity": "4"
+                 },
+                 "questions_list": [{
+                     "id": "Q07",
+                     "question_name": "What is your HCP gender ?",
+                     "answer_type": "multiple answer",
+                     "answers": ["Male","Female"],
+                     "level": "HCP",
+                     "recurence": 0,
+                     "speciality_filter": ["Cardiologist","Diabetologist"],
+                     "expiration_date": null,
+                     "weight": 4,
+                     "order": 1,
+                     "high_priority_order_product" : "HIGH or NULL",
+                     "conditions": [],
+                 },{
+                     "id": "Q09",
+                     "question_name": "Is there some print materials from comptetitors?",
+                     "answer_type": "multiple answer",
+                     "answers": ["Yes a lot","Yes a few","Not at all"],
+                     "level": "BRAND",
+                     "recurence": 4,
+                     "speciality_filter": ["Pharmacist"],
+                     "expiration_date": null,
+                     "weight": 6,
+                     "order": 2,
+                     "high_priority_order_product" : "HIGH or NULL",
+                     "conditions": [],
+                 },{
+                     "id": "Q10",
+                     "question_name": "Brand loyalty ?",
+                     "answer_type": "percentage",
+                     "answers": [0,1,2,3,4,5,6,7,8,9,10],
+                     "level": "BRAND",
+                     "recurence": 4,
+                     "speciality_filter": ["Pharmacist"],
+                     "expiration_date": null,
+                     "weight": 6,
+                     "order": 2,
+                     "high_priority_order_product" : "HIGH or NULL",
+                     "conditions": [],
+                 }]
+             }
+         }
+]
