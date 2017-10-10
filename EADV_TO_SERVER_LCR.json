@@ -26,13 +26,14 @@
             },
             "comments": null,
             "questions": {
-                "Q3": {"value":"female","answer_date": "25/10/04 18:03:07 GMT+0200" , "display": true},
-                "Q4": {"value":"60","answer_date": "25/10/04 18:03:07 GMT+0200" , "display": true},
-                "Q5": {"value": null,"answer_date": "25/10/04 18:03:07 GMT+0200" , "display": true},
-                "Q7": {"value": null,"answer_date": "25/10/04 18:03:07 GMT+0200" , "display": true},
-                "Q8": {"value": null,"answer_date": "25/10/04 18:03:07 GMT+0200" , "display": false}
+                "Q00": {"value":"Q00_a1;Q00_a2;Q00_a3","answer_date": "25/10/04 18:03:07 GMT+0200" , "display": true},
+                "Q03": {"value":"Q03_A1","answer_date": "25/10/04 18:03:07 GMT+0200" , "display": true},
+                "Q04": {"value": 60,"answer_date": "25/10/04 18:03:07 GMT+0200" , "display": true},
+                "Q05": {"value": null,"answer_date": "25/10/04 18:03:07 GMT+0200" , "display": true},
+                "Q07": {"value": null,"answer_date": "25/10/04 18:03:07 GMT+0200" , "display": true},
+                "Q08": {"value": null,"answer_date": "25/10/04 18:03:07 GMT+0200" , "display": false}
             },
-            "discussed_none_clm_presentation": [],
+            "discussed_nonclm_presentation": [],
             "recommandations": {}
         }, {
             "calldate": 1507130666217,
@@ -48,20 +49,17 @@
             },
             "comments": null,
             "questions": {
-                "Q2": 50,
-                "Q11": 70,
-                "Q3": "computer"
+                "Q03": {"value":"Q03_A1","answer_date": "25/10/04 18:03:07 GMT+0200" , "display": true},
+                "Q04": {"value": 60,"answer_date": "25/10/04 18:03:07 GMT+0200" , "display": true},
+                "Q05": {"value": null,"answer_date": "25/10/04 18:03:07 GMT+0200" , "display": true},
+                "Q07": {"value": null,"answer_date": "25/10/04 18:03:07 GMT+0200" , "display": true},
+                "Q08": {"value": null,"answer_date": "25/10/04 18:03:07 GMT+0200" , "display": false}
             },
-            "presentations": [{
-                "thumb": "/Presentations/7005724002674477/200x150.jpg",
-                "name": "json_dev_2",
-                "list": ["keymessage_1"]
-            }],
-            "discussed_none_clm_presentation": ["Apidra", "Amaryl", "Lantus"],
+            "discussed_nonclm_presentation": ["Apidra", "Amaryl", "Lantus"],
             "recommandations": {
                 "Lantus": {
                     "state": "talk",
-                    "category": ["efficacy", "posologie", "epidemiology"]
+                    "category": ["cat1", "cat2", "cat3"]
                 },
                 "Apidra": {
                     "state": "donttalk",

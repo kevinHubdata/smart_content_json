@@ -8,7 +8,16 @@
                 "fm_bu_list": ["diabete"],
                 "fm_fm_access_date": "",
                 "fm_sm_access_date": "",
-                "fm_product_list": ["prod01","Lantus","Toujeo"],
+                "fm_product_list": {
+                    "prod1": "Lantus",
+                    "prod2": "Amarel",
+                    "prod3": "Toujeo"
+                },
+                "fm_category_list": {
+                   "cat1": "efficacy",
+                   "cat2": "posologie",
+                   "cat3": "epidemilogie"
+                }
              },
              "user":{
                 "fm_user_id": "",
@@ -25,7 +34,7 @@
          "project": {
              "fm_project_id": "uniq ID",
              "fm_create_date": "2017/10/04 18:03:07 GMT+0200",
-             "fm_project_product_name": "Lantus",
+             "fm_project_product_name": "prod1",
              "fm_project_country": "Fr",
              "fm_campaign_id": null,
              "fm_camapign_name":"Sanofi Diabete 2017",
@@ -35,6 +44,7 @@
              "clm_name": "ClmBuilderName",
              "presentation": {
                  "fm_presentation_id": "uniq ID",
+                 "fm_presentation_spoken_language": "Fr-fr",
                  "fm_presentation_channel": "eDetailing,mailing,website,mobileApp",
                  "fm_presentation_reps_team": {
                       "fm_product_portfolio": "["Apidra", "Lantus"] ancienement none CLM product",
@@ -105,21 +115,21 @@
                          "fm_reps_speech": "On this screen please insist on the under diagnosed situation",
                          "fm_popup": [{
                                  "fm_name": "poup_name_1",
-                                 "fm_category": "category",
+                                 "fm_category": "cat1",
                                  "custom_message": "freetext"
                              },
                              {
                                  "fm_name": "poup_name_2",
-                                 "fm_category": "category",
+                                 "fm_category": "cat1",
                                  "custom_message": "freetext"
                              }
                          ],
                          "fm_flip_flap":[{
                                "fm_flip_name": "flip_name",
-                               "fm_flip_category": "category",
+                               "fm_flip_category": "cat2",
                                "fm_flip_custom_message": "freetext",
                                "fm_flap_name": "flip_name",
-                               "fm_flap_category": "category",
+                               "fm_flap_category": "cat3",
                                "fm_flap_custom_message": "freetext"
                          }],
                          "fm_pdf": [{
@@ -149,10 +159,30 @@
                       "survery_per_call_quantity": "4"
                  },
                  "questions_list": [{
+                     "id": "c",
+                     "question_name": "Can you please the select product available in a portfolio?",
+                     "answer_type": "multiple answer",
+                     "answers":{
+                          "Q00_a1": "Apidra",
+                          "Q00_a3": "Toujeo",
+                          "Q00_a2": "Geostar"
+                     },
+                     "level": "REPS TEAM",
+                     "recurence": 0,
+                     "speciality_filter": ["Pharmacist"],
+                     "expiration_date": null,
+                     "weight": 6,
+                     "order": 2,
+                     "high_priority_order_product" : "HIGH or NULL",
+                     "conditions": [],
+                 },{
                      "id": "Q07",
                      "question_name": "What is your HCP gender ?",
                      "answer_type": "multiple answer",
-                     "answers": ["Male","Female"],
+                     "answers":{
+                          "Q07_a1": "female",
+                          "Q07_a2": "male"
+                     },
                      "level": "HCP",
                      "recurence": 0,
                      "speciality_filter": ["Cardiologist","Diabetologist"],
@@ -165,7 +195,11 @@
                      "id": "Q09",
                      "question_name": "Is there some print materials from comptetitors?",
                      "answer_type": "multiple answer",
-                     "answers": ["Yes a lot","Yes a few","Not at all"],
+                     "answers":{
+                          "Q09_a1": "Yes a lot",
+                          "Q09_a3": "Yes a few",
+                          "Q09_a2": "Not at all"
+                     },
                      "level": "BRAND",
                      "recurence": 4,
                      "speciality_filter": ["Pharmacist"],
@@ -178,7 +212,7 @@
                      "id": "Q10",
                      "question_name": "Brand loyalty ?",
                      "answer_type": "percentage",
-                     "answers": [0,1,2,3,4,5,6,7,8,9,10],
+                     "answers": [],
                      "level": "BRAND",
                      "recurence": 4,
                      "speciality_filter": ["Pharmacist"],
