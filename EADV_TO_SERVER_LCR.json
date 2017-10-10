@@ -1,0 +1,73 @@
+{
+    "cust22": { 
+        "type": "PUT or GET",
+        "put_date": "17/11/04 18:03:07 GMT+0200",
+        "get_date": "25/10/04 18:03:07 GMT+0200",
+        "infos": {
+            "firstname": "Dominic",
+            "lastname": "Abrams",
+            "potential": "H",
+            "segment": "Potential",
+            "gender": "female",
+            "phone": "",
+            "mail": ""
+        },
+        "call": [{
+            "callDate": 1507130539750,
+            "fm_id": "5sd4f5sd4fd5s4f",
+            "sm_callid": "d0bbb188-ba1d-2868-84a4-0e0d496175d9",
+            "displayed": null,
+            "digital_interest": 60,
+            "brand_loyalty": null,
+            "presentation_interest": null,
+            "reps": {
+                "firstname": " Vince",
+                "lastname": "CARTER_085UK"
+            },
+            "comments": null,
+            "questions": {
+                "Q3": {"value":"female","answer_date": "25/10/04 18:03:07 GMT+0200" , "display": true},
+                "Q4": {"value":"60","answer_date": "25/10/04 18:03:07 GMT+0200" , "display": true},
+                "Q5": {"value": null,"answer_date": "25/10/04 18:03:07 GMT+0200" , "display": true},
+                "Q7": {"value": null,"answer_date": "25/10/04 18:03:07 GMT+0200" , "display": true},
+                "Q8": {"value": null,"answer_date": "25/10/04 18:03:07 GMT+0200" , "display": false}
+            },
+            "discussed_none_clm_presentation": [],
+            "recommandations": {}
+        }, {
+            "calldate": 1507130666217,
+            "fm_id": "5sd4f5sd4fd5s4f",
+            "sm_callid": "d92e34ab-feae-96aa-c9bd-f338f42364d3",
+            "displayed": null,
+            "digital_interest": null,
+            "brand_loyalty": 50,
+            "presentation_interest": 70,
+            "reps": {
+                "firstname": " Vince",
+                "lastname": "CARTER_085UK"
+            },
+            "comments": null,
+            "questions": {
+                "Q2": 50,
+                "Q11": 70,
+                "Q3": "computer"
+            },
+            "presentations": [{
+                "thumb": "/Presentations/7005724002674477/200x150.jpg",
+                "name": "json_dev_2",
+                "list": ["keymessage_1"]
+            }],
+            "discussed_none_clm_presentation": ["Apidra", "Amaryl", "Lantus"],
+            "recommandations": {
+                "Lantus": {
+                    "state": "talk",
+                    "category": ["efficacy", "posologie", "epidemiology"]
+                },
+                "Apidra": {
+                    "state": "donttalk",
+                    "category": []
+                }
+            }
+        }]
+    }
+}
