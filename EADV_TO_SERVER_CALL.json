@@ -77,11 +77,11 @@
               "fm_seq_id": "657565bjhbhb",
               "fm_seq_version": "ghjgjhghjg7587678678",
               "crm_mv_seq_feedback": "POSI",
-              "crm_m_keymessage_category": "posology",
               "screen": [{
                   "fm_screen_id": "comigral_3545488",
                   "crm_mv_name": "page-ID",
                   "crm_mv_start": "15/11/04 17:23:07 GMT+020",
+                  "crm_m_keymessage_category": "posology",
                   "sm_pdf": [{
                        "fm_name": "pdf01",
                        "sm_duration": "76786786",
@@ -112,6 +112,7 @@
                   "fm_screen_id": "comigral_8725787",
                   "crm_mv_name": "keymessage_2",
                   "crm_mv_start": "1502463133930",
+                  "crm_m_keymessage_category": "epidemiologie",
                   "sm_pdf": "",
                   "sm_feedback": "neutral",
                   "sm_reference": false,
