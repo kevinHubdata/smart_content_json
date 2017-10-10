@@ -34,7 +34,7 @@
                 "Q08": {"value": null,"answer_date": "25/10/04 18:03:07 GMT+0200" , "display": false}
             },
             "discussed_nonclm_presentation": [],
-            "recommandations": {}
+            "next_call_topic": {}
         }, {
             "calldate": 1507130666217,
             "fm_id": "5sd4f5sd4fd5s4f",
@@ -55,8 +55,8 @@
                 "Q07": {"value": null,"answer_date": "25/10/04 18:03:07 GMT+0200" , "display": true},
                 "Q08": {"value": null,"answer_date": "25/10/04 18:03:07 GMT+0200" , "display": false}
             },
-            "discussed_nonclm_presentation": ["Apidra", "Amaryl", "Lantus"],
-            "recommandations": {
+            "discussed_nonclm_presentation": ["Prod1", "Prod2", "Prod3"],
+            "next_call_topic": {
                 "Lantus": {
                     "state": "talk",
                     "category": ["cat1", "cat2", "cat3"]
