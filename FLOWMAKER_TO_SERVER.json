@@ -1,4 +1,4 @@
- [
+ [{
          "client": {
              "company":{
                 "fm_company_id": "id",
@@ -47,9 +47,9 @@
                  "fm_presentation_spoken_language": "Fr-fr",
                  "fm_presentation_channel": "eDetailing,mailing,website,mobileApp",
                  "fm_presentation_reps_team": {
-                      "fm_product_portfolio": "["Apidra", "Lantus"] ancienement none CLM product",
+                      "fm_product_portfolio": "['prod1', 'prod2']",
                       "fm_product_position": {
-                          "P1": "Apidra" , "P2":"Lantus"
+                          "P1": "prod1" , "P2":"prod2"
                       },
                       "fm_number_reps": 10,
                       "fm_average_call_day": 9,
@@ -111,7 +111,7 @@
                          "fm_objective": null,
                          "fm_selling_steps": null,
                          "fm_custom_data": null,
-                         "fm_product": "Apidra",
+                         "fm_product": "prod1",
                          "fm_reps_speech": "On this screen please insist on the under diagnosed situation",
                          "fm_popup": [{
                                  "fm_name": "poup_name_1",
@@ -159,7 +159,7 @@
                       "survery_per_call_quantity": "4"
                  },
                  "questions_list": [{
-                     "id": "c",
+                     "id": "Q00",
                      "question_name": "Can you please the select product available in a portfolio?",
                      "answer_type": "multiple answer",
                      "answers": {
@@ -224,4 +224,4 @@
                  }]
              }
          }
-]
+}]
