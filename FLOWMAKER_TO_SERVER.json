@@ -37,8 +37,8 @@
              "fm_project_product_name": "prod1",
              "fm_project_country": "Fr",
              "fm_campaign_id": null,
-             "fm_camapign_name":"Sanofi Diabete 2017",
-             "fm_source": "CLM or FM or OVERCOAT",
+             "fm_camapaign_name":"Sanofi Diabete 2017",
+             "fm_source": "CLM or FM or OVERLAY",
              "fm_authorized_users":["fm_user_id","fm_user_id"],
              "clm_id": "ClmBuilderId",
              "clm_name": "ClmBuilderName",
@@ -67,14 +67,14 @@
                  "fm_presentation_export_type": "MONO OR MULTI",
                  "fm_presentation_custom_marketer_message": "Good luck with this presentation fill free to check your reps speech in the training functionality.",
                  "fm_presentation_smpc": ["apidra_500_smpc.pdf", "apidra_600_smpc.pdf"],
-                 "clm_presentation_id":"",
-                 "clm_presentation_name":"",
+                 "clm_presentation_id": null,
+                 "clm_presentation_name": null,
                  "fm_version": {
                      "fm_version_id": "uniq ID",
                      "fm_version_generate_date": null,
                      "fm_version_export_date": null,
                      "fm_version_flow_count": "number of total flow",
-                     "fm_sm_active": true,
+                     "fm_sm_lcr_active": true,
                      "fm_sm_update": true
                  },
                  "crm_mv_survey": [{
@@ -162,7 +162,7 @@
                      "id": "c",
                      "question_name": "Can you please the select product available in a portfolio?",
                      "answer_type": "multiple answer",
-                     "answers":{
+                     "answers": {
                           "Q00_a1": "Apidra",
                           "Q00_a3": "Toujeo",
                           "Q00_a2": "Geostar"
