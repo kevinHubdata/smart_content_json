@@ -1,43 +1,68 @@
  [{
          "client": {
              "company":{
-                "fm_company_id": "id",
+                "fm_company_id": "uniq id",
                 "fm_company_name": "sanofi",
-                "fm_region_list": ["eu"],
-                "fm_country_list": ["fr"],
-                "fm_bu_list": ["diabete"],
-                "fm_fm_access_date": "",
-                "fm_sm_access_date": "",
+                "fm_region_list": {
+                    "EU": "Europe",
+                    "AF": "Africa",
+                    "AS": "Asia"
+                },
+                "fm_country_list": {
+                    "FR": "France",
+                    "GB": "United Kingdom",
+                    "BE": "Belgium"
+                },
+                "fm_bu_list": {
+                    "DIA": "Diabete",
+                    "CAR": "Cardiovascular",
+                    "OTC": "OTC",
+                    "PAI": "Pain"
+                },
+                "fm_fm_access_date": "2017/10/01 18:03:07 GMT+0200",
+                "fm_sm_access_date": "2017/10/01 18:03:07 GMT+0200",
                 "fm_product_list": {
-                    "prod1": "Lantus",
-                    "prod2": "Amarel",
-                    "prod3": "Toujeo"
+                    "COM": "Comigral",
+                    "MAV": "Mavencad",
+                    "REB": "Rebif",
+                    "GLU": "Glucophage",
+                    "JAN": "Januvia"
+                    "LEV": "Levothyrox"
                 },
                 "fm_category_list": {
                    "cat1": "efficacy",
                    "cat2": "posologie",
                    "cat3": "epidemilogie"
                 }
+                "fm_specialty_list": {
+                   "spe1": "General Practitioner",
+                   "spe2": "posologie",
+                   "spe3": "epidemilogie" 
+                }
              },
              "user":{
-                "fm_user_id": "",
-                "fm_user_name": "",
-                "fm_firstname": "",
-                "fm_lastname": "",
-                "fm_mail": "",
-                "fm_account_type": "",
-                "fm_spoken_language": "",
-                "fm_position_name": "",
-                "fm_user_country": ""
+                "fm_user_id": "4",
+                "fm_user_name": "julien.meichler",
+                "fm_firstname": "julien",
+                "fm_lastname": "meichler",
+                "fm_mail": "julien.meichler@hubdata.fr",
+                "fm_account_type": "ADMIN",
+                "fm_spoken_language": "FR",
+                "fm_position_name": "PM",
+                "fm_user_country": "FR"
              }
          },
          "project": {
-             "fm_project_id": "uniq ID",
+             "fm_project_id": "uniq id",
              "fm_create_date": "2017/10/04 18:03:07 GMT+0200",
-             "fm_project_product_name": "prod1",
-             "fm_project_country": "Fr",
-             "fm_campaign_id": null,
-             "fm_camapaign_name":"Sanofi Diabete 2017",
+             "fm_project_product_id": "COM",
+             "fm_project_product_name": "COMIGRAL",
+             "fm_project_bu_id": "OTC",
+             "fm_project_bu_name": "Pain",
+             "fm_project_country_id": "FR",
+             "fm_project_country_name": "France",
+             "fm_campaign_id": "uniq id",
+             "fm_camapaign_name":"OTC basket promotion 2017",
              "fm_source": "CLM or FM or OVERLAY",
              "fm_authorized_users":["fm_user_id","fm_user_id"],
              "clm_id": "ClmBuilderId",
