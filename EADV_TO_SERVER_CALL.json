@@ -1,7 +1,7 @@
 {
     "data": [
       {
-          "type": "PUT or GET",
+          "type": "PUT or GET or Demo",
           "put_date": "17/11/04 18:03:07 GMT+0200",
           "get_date": "25/10/04 18:03:07 GMT+0200",
           "call": {
