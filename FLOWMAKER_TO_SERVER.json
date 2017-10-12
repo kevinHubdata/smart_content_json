@@ -1,102 +1,127 @@
  [{
          "client": {
              "company":{
-                "fm_company_id": "id",
-                "fm_company_name": "sanofi",
-                "fm_region_list": ["eu"],
-                "fm_country_list": ["fr"],
-                "fm_bu_list": ["diabete"],
-                "fm_fm_access_date": "",
-                "fm_sm_access_date": "",
+                "fm_company_id": "0001",
+                "fm_company_name": "Merck",
+                "fm_region_list": {
+                    "EU": "Europe",
+                    "AF": "Africa",
+                    "AS": "Asia"
+                },
+                "fm_country_list": {
+                    "FR": "France",
+                    "GB": "United Kingdom",
+                    "BE": "Belgium"
+                },// Attention a complêter
+                "fm_bu_list": {
+                    "DIA": "Diabete",
+                    "CAR": "Cardiovascular",
+                    "OTC": "OTC",
+                    "PAI": "Pain"
+                },
+                "fm_fm_access_date": "2017/10/01 18:03:07 GMT+0200",
+                "fm_sm_access_date": "2017/10/01 19:03:07 GMT+0200",
                 "fm_product_list": {
-                    "prod1": "Lantus",
-                    "prod2": "Amarel",
-                    "prod3": "Toujeo"
+                    "COM": "Comigral",
+                    "MAV": "Mavencad",
+                    "REB": "Rebif",
+                    "GLU": "Glucophage",
+                    "JAN": "Januvia"
+                    "LEV": "Levothyrox"
                 },
                 "fm_category_list": {
                    "cat1": "efficacy",
                    "cat2": "posologie",
-                   "cat3": "epidemilogie"
+                   "cat3": "epidemilogie" // a completer tous les cat de la compagnie
+                }
+                "fm_specialty_list": {
+                   "cat1": "General Practitioner",
+                   "cat2": "posologie",
+                   "cat3": "epidemilogie" // a completer tous les cat de la compagnie
                 }
              },
              "user":{
-                "fm_user_id": "",
-                "fm_user_name": "",
-                "fm_firstname": "",
-                "fm_lastname": "",
-                "fm_mail": "",
-                "fm_account_type": "",
-                "fm_spoken_language": "",
-                "fm_position_name": "",
-                "fm_user_country": ""
+                "fm_user_id": "4",
+                "fm_user_name": "julien.meichler",
+                "fm_firstname": "julien",
+                "fm_lastname": "meichler",
+                "fm_mail": "julien.meichler@hubdata.fr",
+                "fm_account_type": "ADMIN",
+                "fm_spoken_language": "FR",
+                "fm_position_name": "PM",
+                "fm_user_country": "FR"
              }
          },
          "project": {
-             "fm_project_id": "uniq ID",
+             "fm_project_id": "ud41d8cd98f00b204e9800998ecf8427e",
              "fm_create_date": "2017/10/04 18:03:07 GMT+0200",
-             "fm_project_product_name": "prod1",
-             "fm_project_country": "Fr",
-             "fm_campaign_id": null,
-             "fm_camapaign_name":"Sanofi Diabete 2017",
-             "fm_source": "CLM or FM or OVERLAY",
-             "fm_authorized_users":["fm_user_id","fm_user_id"],
-             "clm_id": "ClmBuilderId",
-             "clm_name": "ClmBuilderName",
+             "fm_project_product_id": "COM",
+             "fm_project_product_name": "COMIGRAL",
+             "fm_project_bu_id": "OTC",
+             "fm_project_bu_name": "Pain"
+             "fm_project_country_id": "FR",
+             "fm_project_country_name": "France",
+             "fm_campaign_id": "74c335b723c7e157cc1fabd8f0ab128d",
+             "fm_camapaign_name":"OTC basket promotion 2017",
+             "fm_source": "FM",
+             "fm_authorized_users":["4","2", "1"],
+             "clm_id": null ,
+             "clm_name": null ,
              "presentation": {
-                 "fm_presentation_id": "uniq ID",
-                 "fm_presentation_spoken_language": "Fr-fr",
-                 "fm_presentation_channel": "eDetailing,mailing,website,mobileApp",
-                 "fm_presentation_reps_team": {
-                      "fm_product_portfolio": "['prod1', 'prod2']",
+                 "fm_presentation_id": "82d06bea0055b2cf1e2a009596e48f2f",
+                 "fm_presentation_spoken_language": "FR",
+                 "fm_presentation_channel": "EDE",
+                 "fm_presentation_reps_team_configuration": {
+                      "fm_reps_team_name" : null, 
+                      "fm_product_portfolio": ['COM','MAV','REB'],
                       "fm_product_position": {
-                          "P1": "prod1" , "P2":"prod2"
+                          "P1": "COM" , "P2":"MAV","P3":"REB"
                       },
-                      "fm_number_reps": 10,
+                      "fm_reps_quantity": 10,
                       "fm_average_call_day": 9,
-                      "fm_visited_hcp": ["Cardiologue", "Diabetologue"]
+                      "fm_visited_hcp_id": ["Cardiologue", "Diabetologue"] // a completer tous les cat de la compagnie
                  },
-                 "fm_presentation_origin": "NEW or LOC or MASTER",
-                 "fm_presentation_name": "1709_SAN_DZ_DIA_API",
+                 "fm_presentation_origin": "NEW",
+                 "fm_presentation_name": "1709_MER_FR_OTC_COM",
                  "fm_presentation_deployement_date": "2017/11/01 18:03:07 GMT+0200",
                  "fm_presentation_expiration_date": "2018/10/04 18:03:07 GMT+0200",
-                 "fm_presentation_approval_code": "",
-                 "fm_presentation_custom_name": "Apidra long flow",
-                 "fm_presentation_product_name": "Lantus",
-                 "fm_presentation_crm_name": "MI or VEEVA",
-                 "fm_presentation_device": "IPAD or SURFACE or WEBSITE",
-                 "fm_presentation_export_type": "MONO OR MULTI",
+                 "fm_presentation_approval_code": null,
+                 "fm_presentation_custom_name": "Comigral flow introduction",
+                 "fm_presentation_product_id": "COM",
+                 "fm_presentation_product_name": "Comigral",
+                 "fm_presentation_bu_id": "OTC",
+                 "fm_presentation_bu_name": "Pain"
+                 "fm_presentation_crm_id": "MI",
+                 "fm_presentation_crm_name": "MI",
+                 "fm_presentation_export_type": "MONO",
+                 "fm_presentation_device_id": "IP",
+                 "fm_presentation_device_name": "Ipad",
                  "fm_presentation_custom_marketer_message": "Good luck with this presentation fill free to check your reps speech in the training functionality.",
                  "fm_presentation_smpc": ["apidra_500_smpc.pdf", "apidra_600_smpc.pdf"],
                  "clm_presentation_id": null,
                  "clm_presentation_name": null,
                  "fm_version": {
-                     "fm_version_id": "uniq ID",
-                     "fm_version_generate_date": null,
-                     "fm_version_export_date": null,
-                     "fm_version_flow_count": "number of total flow",
+                     "fm_version_id": "e1a9b2ffbaefd408da31159dec83166d",
+                     "fm_version_generate_date": "2018/10/04 18:03:07 GMT+0200",
+                     "fm_version_export_date": "2018/10/04 18:04:07 GMT+0200",
+                     "fm_version_flow_count": "1",
                      "fm_sm_lcr_active": true,
                      "fm_sm_update": true
                  },
-                 "crm_mv_survey": [{
-                     "crm_mv_question": "Text question provided by parameters.xml",
-                     "crm_mv_answer": "Text answer provided by parameters.xml",
-                     "crm_mv_screen_location": ["Array fm_screen_id"],
-                     "crm_mv_survey_type": "Drop , Text",
-                     "fm_crm_survey_id": ""
-                 }]
+                 "crm_mv_survey": []
              },
              "sequence": [{
-                 "fm_sequence_id": null,
-                 "fm_sequence_name": "1609_SAN_DZ_DIA_API_xxxxx",
-                 "fm_sequence_version": "hjghjghg575576",
+                 "fm_sequence_id": "0f731cba139ccc3dc3871ba21c82ba37",
+                 "fm_sequence_name": "1709_MER_FR_OTC_COM_1507131656",
+                 "fm_sequence_version": "0c3d1c61871e9cb83cbbe2d1979866c4",
                  "fm_sequence_is_shared": false,
                  "flows": [{
                      "id": "flow1",
-                     "custom_name": "Apidra long flow",
-                     "product": [],
-                     "marketers_custom_message": "This is an update please take care to the change.",
+                     "custom_name": null,
+                     "product_id": ["COM"],
+                     "marketers_custom_message": null,
                      "screen": [{
-                         "fm_screen_id": "uniq id",
+                         "fm_screen_id": "uniq id",// a continuer
                          "fm_origin_version": "refer to origin version ID",
                          "fm_screen_name": "Study schmurtz conclusion",
                          "fm_refer_to": "1_10.00",
