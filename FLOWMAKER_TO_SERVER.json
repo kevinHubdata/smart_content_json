@@ -160,11 +160,12 @@
                          "fm_reference": false,
                          "fm_video": [],
                          "fm_animation": [{
-                             "trigger": "AUTO",
-                             "id": "1",
-                             "name": "graph5",
-                             "type": "graphc",
-                             "order": "500" // a readapter pour comigral
+                             "fm_name": "graph5",
+                             "fm_duration: 500,
+                             "fm_trigger": "AUTO",
+                             "fm_id": "1",
+                             "fm_type": "graphc",
+                             "fm_order": "500" // a readapter pour comigral
                          }]
                      },{
                          "fm_screen_id": "9a947685c46e82044ad5ca5f17d446df", // a readapter pour comigral
