@@ -2,7 +2,7 @@
          "client": {
              "company":{
                 "fm_company_id": "uniq id",
-                "fm_company_name": "sanofi",
+                "fm_company_name": "Merck",
                 "fm_region_list": {
                     "EU": "Europe",
                     "AF": "Africa",
@@ -20,25 +20,39 @@
                     "PAI": "Pain"
                 },
                 "fm_fm_access_date": "2017/10/01 18:03:07 GMT+0200",
-                "fm_sm_access_date": "2017/10/01 18:03:07 GMT+0200",
+                "fm_sm_access_date": "2017/10/01 19:03:07 GMT+0200",
                 "fm_product_list": {
                     "COM": "Comigral",
                     "MAV": "Mavencad",
                     "REB": "Rebif",
                     "GLU": "Glucophage",
-                    "JAN": "Januvia"
+                    "JAN": "Januvia",
                     "LEV": "Levothyrox"
                 },
                 "fm_category_list": {
                    "cat1": "efficacy",
                    "cat2": "posologie",
                    "cat3": "epidemilogie"
-                }
+                },
+                "fm_sellingstep_list": [{
+                   "id":"sp1",
+                   "order":"1",
+                   "name":"customname"
+                }],
                 "fm_specialty_list": {
-                   "spe1": "General Practitioner",
-                   "spe2": "posologie",
-                   "spe3": "epidemilogie" 
-                }
+                   "cat1": "General Practitioner",
+                   "cat2": "posologie",
+                   "cat3": "epidemilogie"
+                },
+                "fm_lcr_survey_level_list": [{
+                   "name": "HCP",
+                   "id": "St1",
+                   "Level": "1"
+                },{
+                   "name": "COMPANY",
+                   "id": "St2",
+                   "Level": "2"
+                }]
              },
              "user":{
                 "fm_user_id": "4",
@@ -63,81 +77,83 @@
              "fm_project_country_name": "France",
              "fm_campaign_id": "uniq id",
              "fm_camapaign_name":"OTC basket promotion 2017",
-             "fm_source": "CLM or FM or OVERLAY",
-             "fm_authorized_users":["fm_user_id","fm_user_id"],
-             "clm_id": "ClmBuilderId",
-             "clm_name": "ClmBuilderName",
+             "fm_source": "FM",
+             "fm_authorized_users":["4","2", "1"],
+             "clm_id": null ,
+             "clm_name": null ,
              "presentation": {
-                 "fm_presentation_id": "uniq ID",
-                 "fm_presentation_spoken_language": "Fr-fr",
-                 "fm_presentation_channel": "eDetailing,mailing,website,mobileApp",
-                 "fm_presentation_reps_team": {
-                      "fm_product_portfolio": "['prod1', 'prod2']",
+                 "fm_presentation_id": "uniq id",
+                 "fm_presentation_spoken_language": "FR",
+                 "fm_presentation_channel": "EDE",
+                 "fm_presentation_reps_team_configuration": [{
+                      "fm_reps_team_name" : null, 
+                      "fm_product_portfolio": ["productID","productID","productID"],
                       "fm_product_position": {
-                          "P1": "prod1" , "P2":"prod2"
+                          "P1":"productID", "P2":"productID", "P3":"productID"
                       },
-                      "fm_number_reps": 10,
+                      "fm_reps_quantity": 10,
                       "fm_average_call_day": 9,
-                      "fm_visited_hcp": ["Cardiologue", "Diabetologue"]
-                 },
+                      "fm_visited_hcp_id": ["specialityID", "specialityID"]
+                 }],
                  "fm_presentation_origin": "NEW or LOC or MASTER",
-                 "fm_presentation_name": "1709_SAN_DZ_DIA_API",
+                 "fm_presentation_name": "1709_MER_FR_OTC_COM",
+                 "fm_presentation_thumbnail": "base64",
                  "fm_presentation_deployement_date": "2017/11/01 18:03:07 GMT+0200",
                  "fm_presentation_expiration_date": "2018/10/04 18:03:07 GMT+0200",
-                 "fm_presentation_approval_code": "",
-                 "fm_presentation_custom_name": "Apidra long flow",
-                 "fm_presentation_product_name": "Lantus",
-                 "fm_presentation_crm_name": "MI or VEEVA",
-                 "fm_presentation_device": "IPAD or SURFACE or WEBSITE",
-                 "fm_presentation_export_type": "MONO OR MULTI",
+                 "fm_presentation_approval_code": null,
+                 "fm_presentation_custom_name": "Comigral flow introduction",
+                 "fm_presentation_product_id": "productID",
+                 "fm_presentation_product_name": "Comigral",
+                 "fm_presentation_bu_id": "buID",
+                 "fm_presentation_bu_name": "Pain",
+                 "fm_presentation_crm_id": "crmID",
+                 "fm_presentation_crm_name": "MI",
+                 "fm_presentation_export_type": "MONO",
+                 "fm_presentation_device_id": "deviceID",
+                 "fm_presentation_device_name": "Ipad",
                  "fm_presentation_custom_marketer_message": "Good luck with this presentation fill free to check your reps speech in the training functionality.",
-                 "fm_presentation_smpc": ["apidra_500_smpc.pdf", "apidra_600_smpc.pdf"],
+                 "fm_presentation_smpc": [],
                  "clm_presentation_id": null,
                  "clm_presentation_name": null,
                  "fm_version": {
-                     "fm_version_id": "uniq ID",
-                     "fm_version_generate_date": null,
-                     "fm_version_export_date": null,
-                     "fm_version_flow_count": "number of total flow",
+                     "fm_version_id": "uniq id",
+                     "fm_version_generate_date": "2018/10/04 18:03:07 GMT+0200",
+                     "fm_version_export_date": "2018/10/04 18:04:07 GMT+0200",
+                     "fm_version_flow_count": "1",
                      "fm_sm_lcr_active": true,
                      "fm_sm_update": true
                  },
-                 "crm_mv_survey": [{
-                     "crm_mv_question": "Text question provided by parameters.xml",
-                     "crm_mv_answer": "Text answer provided by parameters.xml",
-                     "crm_mv_screen_location": ["Array fm_screen_id"],
-                     "crm_mv_survey_type": "Drop , Text",
-                     "fm_crm_survey_id": ""
-                 }]
+                 "crm_mv_survey": []
              },
              "sequence": [{
-                 "fm_sequence_id": null,
-                 "fm_sequence_name": "1609_SAN_DZ_DIA_API_xxxxx",
-                 "fm_sequence_version": "hjghjghg575576",
+                 "fm_sequence_id": "uniq id",
+                 "fm_sequence_name": "1709_MER_FR_OTC_COM_1507131656",
+                 "fm_sequence_version": "uniq id",
                  "fm_sequence_is_shared": false,
                  "flows": [{
                      "id": "flow1",
-                     "custom_name": "Apidra long flow",
-                     "product": [],
-                     "marketers_custom_message": "This is an update please take care to the change.",
+                     "custom_name": null,
+                     "fm_flows_thumbnail": "base64",
+                     "product_id": ["productID"],
+                     "marketers_custom_message": null,
                      "screen": [{
                          "fm_screen_id": "uniq id",
-                         "fm_origin_version": "refer to origin version ID",
-                         "fm_screen_name": "Study schmurtz conclusion",
-                         "fm_refer_to": "1_10.00",
-                         "fm_position_id": "1_10.10",
-                         "fm_level_importance":"MUST,HIGH,STANDARD,LOW",
-                         "fm_chapter": null,
+                         "fm_origin_version": "uniq id",
+                         "fm_screen_name": "Home"
+                         "fm_refer_to": null,
+                         "fm_position_id": "1_00.00",
+                         "fm_level_importance":"HIGH LOW STANDARD",
+                         "fm_chapter": "Home",
                          "fm_sub_chapter": null,
-                         "fm_thumbnail": "image base64",
-                         "fm_datatrackname": null,
-                         "fm_category": null,
-                         "fm_key_message": null,
+                         "fm_thumbnail": "base 64",
+                         "fm_datatrackname": "1_Home_1",
+                         "fm_category_id": "catedoryID",
+                         "fm_key_message": "Erase the word pain from your life",
                          "fm_objective": null,
-                         "fm_selling_steps": null,
+                         "fm_selling_steps_id": null,
                          "fm_custom_data": null,
-                         "fm_product": "prod1",
-                         "fm_reps_speech": "On this screen please insist on the under diagnosed situation",
+                         "fm_product_id": "productID",
+                         "fm_reps_speech": null,
                          "fm_popup": [{
                                  "fm_name": "poup_name_1",
                                  "fm_category": "cat1",
@@ -147,9 +163,8 @@
                                  "fm_name": "poup_name_2",
                                  "fm_category": "cat1",
                                  "custom_message": "freetext"
-                             }
-                         ],
-                         "fm_flip_flap":[{
+                          }],
+                          "fm_flip_flap":[{
                                "fm_flip_name": "flip_name",
                                "fm_flip_category": "cat2",
                                "fm_flip_custom_message": "freetext",
@@ -160,13 +175,18 @@
                          "fm_pdf": [{
                              "fm_name": null
                          }],
-                         "fm_reference": true,
+                         "fm_reference": false,
                          "fm_video": [{
                              "fm_name": null,
                              "fm_total_duration": null
                          }],
-                         "fm_tap_animation": [{
-                             "fm_name": null
+                         "fm_animation": [{
+                             "fm_name": "",
+                             "trigger": "AUTO or TAP",
+                             "id": "1",
+                             "name": "graph5",
+                             "type": "graphc",
+                             "order": "500"
                          }]
                      }]
                  }]
@@ -176,11 +196,11 @@
              },
              "last_call_report": {
                  "general_settings":{
-                      "module_lcr": "ON or OFF",
-                      "survey_module": "ON or OFF",
-                      "survey_copy_in_crm": "ON or OFF",
-                      "sharing_hcp_info_company_level": "ON or OFF",
-                      "sharing_hcp_infos_bu_level": "ON or OFF",
+                      "module_lcr": true,
+                      "survey_module": true,
+                      "survey_copy_in_crm": true,
+                      "sharing_hcp_info_company_level": true,
+                      "sharing_hcp_infos_bu_level": true,
                       "survery_per_call_quantity": "4"
                  },
                  "questions_list": [{
@@ -192,13 +212,13 @@
                           "Q00_a3": "Toujeo",
                           "Q00_a2": "Geostar"
                      },
-                     "level": "REPS TEAM",
+                     "level_id": "levelID"
                      "recurence": 0,
-                     "speciality_filter": ["Pharmacist"],
+                     "speciality_filter_id": ["all"],
                      "expiration_date": null,
                      "weight": 6,
                      "order": 2,
-                     "high_priority_order_product" : "HIGH or NULL",
+                     "high_priority_order_product" : null,
                      "conditions": [],
                  },{
                      "id": "Q07",
@@ -210,7 +230,7 @@
                      },
                      "level": "HCP",
                      "recurence": 0,
-                     "speciality_filter": ["Cardiologist","Diabetologist"],
+                     "speciality_filter": ["specialityID","specialityID"],
                      "expiration_date": null,
                      "weight": 4,
                      "order": 1,
@@ -227,7 +247,7 @@
                      },
                      "level": "BRAND",
                      "recurence": 4,
-                     "speciality_filter": ["Pharmacist"],
+                     "speciality_filter": ["specialityID"],
                      "expiration_date": null,
                      "weight": 6,
                      "order": 2,
