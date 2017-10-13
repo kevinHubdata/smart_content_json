@@ -181,8 +181,9 @@
                              "fm_total_duration": null
                          }],
                          "fm_animation": [{
-                             "fm_name": "",
-                             "trigger": "AUTO or TAP",
+                             "fm_name": "graph5",
+                             "fm_duration: "500",
+                             "fm_trigger": "AUTO or TAP",
                              "id": "1",
                              "name": "graph5",
                              "type": "graphc",
