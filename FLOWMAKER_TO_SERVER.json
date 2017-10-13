@@ -182,12 +182,11 @@
                          }],
                          "fm_animation": [{
                              "fm_name": "graph5",
-                             "fm_duration: "500",
+                             "fm_duration: 500,
                              "fm_trigger": "AUTO or TAP",
-                             "id": "1",
-                             "name": "graph5",
-                             "type": "graphc",
-                             "order": "500"
+                             "fm_id": "1",
+                             "fm_type": "graphc",
+                             "fm_order": "500"
                          }]
                      }]
                  }]
