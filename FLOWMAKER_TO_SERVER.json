@@ -186,6 +186,7 @@
                          "fm_reps_speech": null,
                          "fm_popup": [{
                                  "fm_name": "poup_name_1",
+                                 "fm_popup_customname": null,
                                  "fm_category": "cat1",
                                  "custom_message": "freetext"
                              },
@@ -244,7 +245,7 @@
                      "expiration_date": null,
                      "weight": 6,
                      "order": 2,
-                     "high_priority_order_product" : "HIGH or NULL",// a completer
+                     "high_priority_order_product" : null,
                      "conditions": [],
                  },{
                      "id": "Q07",
