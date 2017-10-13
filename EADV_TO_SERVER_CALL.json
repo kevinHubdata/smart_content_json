@@ -1,36 +1,36 @@
 {
     "data": [
       {
-          "type": "PUT or GET or Demo",
-          "put_date": "17/11/04 18:03:07 GMT+0200",
-          "get_date": "25/10/04 18:03:07 GMT+0200",
+          "type": "PUT",
+          "put_date": "17/11/16 18:03:07 GMT+0200",// A REMETRE À JOUR À DATE DE PARTAGE
+          "get_date": null,
           "call": {
               "sm_callid": "ed7a3e53-e6fd-e739-77c3-31ee540673a5",
-              "crm_v_callid": "",
-              "crm_mv_closedType": "cancel",
-              "crm_mv_is_preview": "false",
+              "crm_v_callid": null,
+              "crm_mv_closedType": "postcall",
+              "crm_mv_is_preview": false,
               "date": {
                   "dev_start_date": "2017/10/04 18:03:07 GMT+0200",
                   "crm_mv_start_date": "2017/10/04 18:03:07 GMT+0200",
-                  "dev_end_date": "2017/10/04 18:15:07 GMT+0200"
+                  "dev_end_date": "2017/10/04 18:15:07 GMT+0200"// A REMETRE À JOUR À DATE DE PARTAGE
               }
           },
           "device": {
               "location": {
-                  "dev_longitude": "",
-                  "dev_latitude": ""
+                  "dev_longitude": null,
+                  "dev_latitude": null
               },
               "dev_userAgent": "Mozilla\/5.0 (iPad; U; CPU iPad OS 4_3 like Mac OS X; en-us) AppleWebKit\/534.32 (KHTML, like Gecko) Mobile\/8F190 Version\/4.2.0 Safari\/528.16",
-              "dev_language": "fr-fr",
+              "dev_language": "FR-fr", // table de liasion à fournir
               "dev_orientation": "landscape",
               "crm_m_rotation_blocked": "false",
               "crm_m_cache_memory_warning": true,
-              "dev_local_storage_capacity": "4000",
-              "dev_local_storage_total_call": "50",
-              "dev_local_storage_total_lcr": "50"
+              "dev_local_storage_capacity": 4800,
+              "dev_local_storage_total_call": 1,
+              "dev_local_storage_total_lcr": 1
           },
           "reps": {
-              "crm_v__id": "",
+              "crm_v_id": null,
               "crm_mv_firstname": " Vince",
               "crm_mv_lastname": "CARTER_085UK"
           },
@@ -39,7 +39,7 @@
               "crm_onekey": "WUKM00021591",
               "crm_firstname": "Tabassan",
               "crm_lastname": "Abbas-Wright",
-              "crm_email": "mariem.benhadjali@argolife.fr",
+              "crm_email": "tabassa.abbas-wright@yahoo.com",
               "crm_speciality": "0471",
               "crm_segmentation": "Potential",
               "crm_addresses": [{
@@ -54,60 +54,40 @@
       }, 
       {
           "presentation": {
-              "fm_presentation_id": "5sd4f5sd4fd5s4f",
-              "fm_presentation_version_id": "hqvshjqshjdvjh",
+              "fm_presentation_id": "ID md5", // A récupérer de l'objet flowmaker to server
+              "fm_presentation_version_id": "ID md5", // A récupérer de l'objet flowmaker to server
               "crm_mv_name": "Comigral_SC",
-              "crm_mv_validation_code": "",
+              "crm_mv_validation_code": null,
               "crm_mv_order": "0",
               "crm_m_link_thumbnail": "\/Presentations\/7005724002798426\/200x150.jpg",
-              "fm_thumbnail": "base64",
+              "fm_thumbnail": "base64", // A récupérer de l'objet flowmaker to server
               "date": {
                   "crm_mv_start_date": "15/11/04 17:03:07 GMT+020",
                   "dev_start_date": "15/11/04 17:03:07 GMT+020",
                   "dev_end_date": "15/11/04 17:23:07 GMT+020",
               },
-              "crm_mv_survey": [{
-                  "fm_crm_survey_id": "jbdssbhfvsdfv",
-                  "fm_crm_answer": "Yes"
-              }]
+              "crm_mv_survey": []
           },
           "sequence": {
               "crm_mv_seq_name": "Comigral_smart_content",
-              "crm_m_seq_parameters_id": "MONO_1707_Dev_GLO_Comigral_1_20170727",
-              "fm_seq_id": "657565bjhbhb",
-              "fm_seq_version": "ghjgjhghjg7587678678",
+              "crm_m_seq_parameters_id": "MONO_1707_Dev_GLO_Comigral_1_20170727", // A récupérer
+              "fm_seq_id": "ID", // A récupérer
+              "fm_seq_version": "ID", // A récupérer
               "crm_mv_seq_feedback": "POSI",
               "screen": [{
-                  "fm_screen_id": "comigral_3545488",
-                  "crm_mv_name": "page-ID",
+                  "fm_screen_id": "id", // Recup
+                  "crm_mv_name": "page-ID", // Recup
                   "crm_mv_start": "15/11/04 17:23:07 GMT+020",
-                  "crm_m_keymessage_category": "posology",
-                  "sm_pdf": [{
-                       "fm_name": "pdf01",
-                       "sm_duration": "76786786",
-                  },{
-                       "fm_name": "pdf02",
-                       "sm_duration": "76786786",
-                  }],
-                  "sm_feedback": "neutral",
-                  "sm_reference":["7676786","7857857878"],
-                  "sm_popup": [{
-                       "fm_name": "popup01",
-                       "sm_duration": "76786786",
-                  },{
-                       "fm_name": "popup02",
-                       "sm_duration": "76786786",
-                  }],
+                  "crm_m_keymessage_category": null,
+                  "sm_pdf": [],
+                  "sm_feedback": null,
+                  "sm_reference":[],
+                  "sm_popup": [],
                   "sm_animation": [{
-                       "fm_name": "fadeIn01",
-                       "sm_duration": "76786786",
-                       "sm_event_type": "AUTO or TAP"
-                  },{
-                       "fm_name": "fadeIn02",
-                       "sm_duration": "76786786",
-                       "sm_event_type": "AUTO or TAP"
+                       "fm_name": "graph5",
+                       "sm_duration": 800, 
+                       "sm_trigger": "AUTO"
                   }]
-                  
               }, {
                   "fm_screen_id": "comigral_8725787",
                   "crm_mv_name": "keymessage_2",
@@ -120,7 +100,6 @@
                   "sm_animation": [],
               }]
           },
-          "callid": "ed7a3e53-e6fd-e739-77c3-31ee540673a5",
           "logs": [{
               "Error hcp segmentation": {
                   "line": "71",
