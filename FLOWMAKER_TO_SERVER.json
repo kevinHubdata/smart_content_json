@@ -212,7 +212,8 @@
                           "Q00_a3": "Toujeo",
                           "Q00_a2": "Geostar"
                      },
-                     "level_id": "levelID"
+                     "level": "levelID",
+                     "sub_level": null,
                      "recurence": 0,
                      "speciality_filter_id": ["all"],
                      "expiration_date": null,
@@ -229,6 +230,7 @@
                           "Q07_a2": "male"
                      },
                      "level": "HCP",
+                     "sub_level": null,
                      "recurence": 0,
                      "speciality_filter": ["specialityID","specialityID"],
                      "expiration_date": null,
@@ -246,6 +248,7 @@
                           "Q09_a2": "Not at all"
                      },
                      "level": "BRAND",
+                     "sub_level": null,
                      "recurence": 4,
                      "speciality_filter": ["specialityID"],
                      "expiration_date": null,
@@ -259,6 +262,7 @@
                      "answer_type": "percentage",
                      "answers": [],
                      "level": "BRAND",
+                     "sub_level": null,
                      "recurence": 4,
                      "speciality_filter": ["Pharmacist"],
                      "expiration_date": null,
