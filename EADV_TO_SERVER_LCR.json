@@ -20,7 +20,7 @@
             "lcr_digital_interest": 10,
             "lcr_brand_loyalty": 6,
             "lcr_presentation_interest": 10,
-            "lcr_reps_comments": "free text,
+            "lcr_reps_comments": "free text",
             "reps": {
                 "crm_mv_firstname": " Vince",
                 "crm_mv_lastname": "CARTER_085UK"
