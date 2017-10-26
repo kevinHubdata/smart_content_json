@@ -47,11 +47,11 @@
                 "fm_lcr_survey_level_list": [{
                    "name": "HCP",
                    "id": "St1",
-                   "Level": "1"
+                   "level": "1"
                 },{
                    "name": "COMPANY",
                    "id": "St2",
-                   "Level": "2"
+                   "level": "2"
                 }]
              },
              "user":{
@@ -212,8 +212,8 @@
                           "Q00_a3": "Toujeo",
                           "Q00_a2": "Geostar"
                      },
-                     "level": "levelID",
-                     "sub_level": null,
+                     "level_id": "levelID",
+                     "sub_level_id": null,
                      "recurence": 0,
                      "speciality_filter_id": ["all"],
                      "expiration_date": null,
@@ -229,8 +229,8 @@
                           "Q07_a1": "female",
                           "Q07_a2": "male"
                      },
-                     "level": "HCP",
-                     "sub_level": null,
+                     "level_id": "HCP",
+                     "sub_level_id": null,
                      "recurence": 0,
                      "speciality_filter": ["specialityID","specialityID"],
                      "expiration_date": null,
@@ -247,8 +247,8 @@
                           "Q09_a3": "Yes a few",
                           "Q09_a2": "Not at all"
                      },
-                     "level": "BRAND",
-                     "sub_level": null,
+                     "level_id": "BRAND",
+                     "sub_level_id": null,
                      "recurence": 4,
                      "speciality_filter": ["specialityID"],
                      "expiration_date": null,
@@ -261,8 +261,8 @@
                      "question_name": "Brand loyalty ?",
                      "answer_type": "percentage",
                      "answers": [],
-                     "level": "BRAND",
-                     "sub_level": null,
+                     "level_id": "BRAND",
+                     "sub_level_id": null,
                      "recurence": 4,
                      "speciality_filter": ["Pharmacist"],
                      "expiration_date": null,
