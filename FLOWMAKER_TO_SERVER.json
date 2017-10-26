@@ -47,11 +47,11 @@
                 "fm_lcr_survey_level_list": [{
                    "name": "HCP",
                    "id": "St1",
-                   "Level": "1"
+                   "level": "1"
                 },{
                    "name": "COMPANY",
                    "id": "St2",
-                   "Level": "2"
+                   "level": "2"
                 }]// a completer
              },
              "user":{
@@ -241,6 +241,7 @@
                           "Q00_a2": "Geostar"
                      },
                      "level_id": "st1",// a revoir
+                     "sub_level_id": null,
                      "recurence": 0,
                      "speciality_filter_id": ["all"],
                      "expiration_date": null,
@@ -256,7 +257,8 @@
                           "Q07_a1": "female",
                           "Q07_a2": "male"
                      },
-                     "level": "HCP",
+                     "level_id": "HCP",
+                     "sub_level_id": null,
                      "recurence": 0,
                      "speciality_filter": ["Cardiologist","Diabetologist"],
                      "expiration_date": null,
@@ -273,7 +275,8 @@
                           "Q09_a3": "Yes a few",
                           "Q09_a2": "Not at all"
                      },
-                     "level": "BRAND",
+                     "level_id": "BRAND",
+                     "sub_level_id": null,
                      "recurence": 4,
                      "speciality_filter": ["Pharmacist"],
                      "expiration_date": null,
@@ -286,7 +289,8 @@
                      "question_name": "Brand loyalty ?",
                      "answer_type": "percentage",
                      "answers": [],
-                     "level": "BRAND",
+                     "level_id": "BRAND",
+                     "sub_level_id": null,
                      "recurence": 4,
                      "speciality_filter": ["Pharmacist"],
                      "expiration_date": null,
