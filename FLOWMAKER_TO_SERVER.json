@@ -262,7 +262,7 @@
                          "status": "enabled/disabled",
                          "section": {
                              "survey": {
-                                 "status": "enabled/disabled",
+                                 "status": "enabled/disabled"
                              },
                              "call_preparation": {
                                  "discussed_today": {
@@ -270,7 +270,7 @@
                                      "title": ["flow_name", "product_name"]
                                  },
                                  "non_digital_content": {
-                                     "status": "enabled/disabled",
+                                     "status": "enabled/disabled"
                                  }
                              },
                              "content_recommandations": {
@@ -278,7 +278,7 @@
                                  "talk_about": "display/hide"
                              },
                              "comments": {
-                                 "status": "enabled/disabled",
+                                 "status": "enabled/disabled"
                              }
                          }
                      },
@@ -293,10 +293,10 @@
                              "by": "by",
                              "digital_interest": "DIGITAL INTEREST",
                              "brand_loyalty": "BRAND LOYALTY",
-                             "presentation_interest": "PRESENTATION INTEREST",
+                             "presentation_interest": "PRESENTATION INTEREST"
                          },
                          "last_call": {
-                             "smart_rep_report": "SMART REP REPORT",
+                             "smart_rep_report": "SMART REP REPORT"
                          },
                          "button": {
                              "add_customer": "Add customer",
