@@ -141,7 +141,7 @@
                  "screen": [{
                      "fm_screen_id": "uniq id",
                      "fm_origin_version": "uniq id",
-                     "fm_screen_name": "Home"
+                     "fm_screen_name": "Home",
                      "fm_refer_to": null,
                      "fm_position_id": "1_00.00",
                      "fm_level_importance": "HIGH LOW STANDARD",
