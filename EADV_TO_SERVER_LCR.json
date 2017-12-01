@@ -3,6 +3,10 @@
         "type": "PUT or GET",
         "put_date": "17/11/04 18:03:07 GMT+0200",
         "get_date": "17/11/04 18:03:07 GMT+0200",
+        "speciality":{
+             "spe1": "codeMi",
+             "spe2": "codeMi"
+        },
         "infos": {
             "crm_mv_firstname": "Tabassan",
             "crm_mv_lastname": "Abbas-Wright",
