@@ -40,9 +40,16 @@
                  "name": "customname"
              }],
              "fm_specialty_list": {
-                 "cat1": "General Practitioner",
-                 "cat2": "posologie",
-                 "cat3": "epidemilogie"
+                    "spe1":{
+                       "master_name": "cardiologist",
+                       "trad_name": "cardiologiste",
+                       "mi_code": null
+                    },
+                   "spe2":{
+                       "master_name": "diabetologist",
+                       "trad_name": "diabetologiste",
+                       "mi_code": null
+                   }
              },
              "fm_lcr_survey_level_list": [{
                  "name": "HCP",
@@ -95,7 +102,7 @@
                  },
                  "fm_reps_quantity": 10,
                  "fm_average_call_day": 9,
-                 "fm_visited_hcp_id": ["specialityID", "specialityID"]
+                 "fm_visited_hcp_id": ["spe1", "spe2"]
              }],
              "fm_presentation_origin": "NEW or LOC or MASTER",
              "fm_presentation_name": "1709_MER_FR_OTC_COM",
