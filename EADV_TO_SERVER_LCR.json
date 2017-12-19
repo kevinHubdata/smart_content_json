@@ -12,8 +12,9 @@
             "sm_lcr_phone": "01 45 65 45 32",
             "sm_lcr_mail": "tabassan.wright@yahoo.fr",
             "speciality": {
-                "crm_m_code": "ua04",
-                "fm_speciality_code": "spe1"
+                "ua04" : "spe1",
+                "ua05" : "spe2",
+                "ua06" : "spe3"
             }
         },
         "call": [{
