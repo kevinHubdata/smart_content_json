@@ -3,6 +3,11 @@
         "type": "PUT or GET",
         "put_date": "17/11/04 18:03:07 GMT+0200",
         "get_date": "17/11/04 18:03:07 GMT+0200",
+        "server_speciality": {
+                "ua04" : "spe1",
+                "ua05" : "spe2",
+                "ua06" : "spe3"
+        }
         "infos": {
             "crm_mv_firstname": "Tabassan",
             "crm_mv_lastname": "Abbas-Wright",
@@ -11,11 +16,8 @@
             "sm_lcr_gender": "male",
             "sm_lcr_phone": "01 45 65 45 32",
             "sm_lcr_mail": "tabassan.wright@yahoo.fr",
-            "speciality": {
-                "ua04" : "spe1",
-                "ua05" : "spe2",
-                "ua06" : "spe3"
-            }
+            "crm_speciality": "ua04"
+
         },
         "call": [{
             "callDate": "17/11/04 18:03:07 GMT+0200",
