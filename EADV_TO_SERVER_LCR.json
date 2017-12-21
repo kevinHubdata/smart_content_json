@@ -1,8 +1,9 @@
 {
     "cust22": { 
         "type": "PUT or GET",
-        "put_date": "17/11/04 18:03:07 GMT+0200",
-        "get_date": "17/11/04 18:03:07 GMT+0200",
+        "put_date": "1513869023045",
+        "get_date": "1513869067889",
+        "gmt_offset": "-1",
         "server_speciality": {
                 "ua04" : "spe1",
                 "ua05" : "spe2",
@@ -20,7 +21,7 @@
 
         },
         "call": [{
-            "callDate": "17/11/04 18:03:07 GMT+0200",
+            "callDate": "1513869067889",
             "fm_id": "uniq id",
             "sm_callid": "uniq id",
             "ser_pres_view_qty": 1,
