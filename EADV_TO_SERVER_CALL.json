@@ -2,17 +2,18 @@
     "data": [
       {
           "type": "PUT or GET",
-          "put_date": "17/11/16 18:03:07 GMT+0200",
-          "get_date": "17/11/16 18:03:07 GMT+0200",
+          "gmt_offset": "-1",
+          "put_date": "timestamp",
+          "get_date": "timestamp",
           "call": {
               "sm_callid": "uniq id",
               "crm_v_callid": null,
               "crm_mv_closedType": "postcall",
               "crm_mv_is_preview": false,
               "date": {
-                  "dev_start_date": "2017/10/04 18:03:07 GMT+0200",
-                  "crm_mv_start_date": "2017/10/04 18:03:07 GMT+0200",
-                  "dev_end_date": "2017/10/04 18:15:07 GMT+0200"
+                  "dev_start_date": "timestamp",
+                  "crm_mv_start_date": "timestamp",
+                  "dev_end_date": "timestamp"
               }
           },
           "device": {
@@ -62,9 +63,9 @@
               "crm_m_link_thumbnail": "\/Presentations\/7005724002798426\/200x150.jpg",
               "fm_thumbnail": "base64",
               "date": {
-                  "crm_mv_start_date": "15/11/04 17:03:07 GMT+020",
-                  "dev_start_date": "15/11/04 17:03:07 GMT+020",
-                  "dev_end_date": "15/11/04 17:23:07 GMT+020"
+                  "crm_mv_start_date": "timestamp",
+                  "dev_start_date": "timestamp",
+                  "dev_end_date": "timestamp"
               },
               "crm_mv_survey": [{
                   "fm_crm_survey_id": "jbdssbhfvsdfv",
@@ -80,7 +81,7 @@
               "screen": [{
                   "fm_screen_id": "uniq id",
                   "crm_mv_name": "page-ID",
-                  "crm_mv_start": "15/11/04 17:23:07 GMT+020",
+                  "crm_mv_start": "timestamp",
                   "crm_m_keymessage_category": null,
                   "sm_pdf": [{
                        "fm_name": "pdf01",
