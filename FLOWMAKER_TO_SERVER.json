@@ -1,6 +1,7 @@
  [{
      "client": {
          "company": {
+             "gmt_offset": "-1",
              "fm_company_id": "uniq id",
              "fm_company_name": "Merck",
              "fm_region_list": {
@@ -23,8 +24,8 @@
                 "spe1": "Nurse",
                 "spe2": "Diabetologist",
              },
-             "fm_fm_access_date": "2017/10/01 18:03:07 GMT+0200",
-             "fm_sm_access_date": "2017/10/01 19:03:07 GMT+0200",
+             "fm_fm_access_date": "timestamp",
+             "fm_sm_access_date": "timestamp",
              "fm_product_list": {
                  "COM": "Comigral",
                  "MAV": "Mavencad",
@@ -111,8 +112,8 @@
              "fm_presentation_origin": "NEW or LOC or MASTER",
              "fm_presentation_name": "1709_MER_FR_OTC_COM",
              "fm_presentation_thumbnail": "base64",
-             "fm_presentation_deployement_date": "2017/11/01 18:03:07 GMT+0200",
-             "fm_presentation_expiration_date": "2018/10/04 18:03:07 GMT+0200",
+             "fm_presentation_deployement_date": "timestamp",
+             "fm_presentation_expiration_date": "timestamp",
              "fm_presentation_approval_code": null,
              "fm_presentation_custom_name": "Comigral flow introduction",
              "fm_presentation_product_id": "productID",
@@ -130,8 +131,8 @@
              "clm_presentation_name": null,
              "fm_version": {
                  "fm_version_id": "uniq id",
-                 "fm_version_generate_date": "2018/10/04 18:03:07 GMT+0200",
-                 "fm_version_export_date": "2018/10/04 18:04:07 GMT+0200",
+                 "fm_version_generate_date": "timestamp",
+                 "fm_version_export_date": "timestamp",
                  "fm_version_flow_count": "1",
                  "fm_sm_lcr_active": true,
                  "fm_sm_update": true
