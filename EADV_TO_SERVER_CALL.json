@@ -56,6 +56,7 @@
       {
           "presentation": {
               "fm_presentation_id": "uniq id",
+              "fm_presentation_name": "presentation name",
               "fm_presentation_version_id": "uniq id",
               "crm_mv_name": "Comigral_SC",
               "crm_mv_validation_code": null,
