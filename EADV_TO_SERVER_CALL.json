@@ -82,6 +82,10 @@
                   "fm_screen_id": "uniq id",
                   "crm_mv_name": "page-ID",
                   "crm_mv_start": "timestamp",
+                  "sm_duration": "5000",
+                  "fm_screen_name": "Screen name",
+                  "fm_chapter": "chapter name",
+                  "fm_category_id": "cat1",
                   "crm_m_keymessage_category": null,
                   "sm_pdf": [{
                        "fm_name": "pdf01",
