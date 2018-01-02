@@ -4,6 +4,11 @@
         "put_date": "1513869023045",
         "get_date": "1513869067889",
         "gmt_offset": "-1",
+        "server_total_call:" 12,
+        "server_total_call_presentation":{
+            "fm_presentation_id": {"total":3,"lastDate":1514913814913},
+            "fm_presentation_id": {"total":1,"lastDate":1514913814913}
+        },
         "server_speciality": {
                 "ua04" : "spe1",
                 "ua05" : "spe2",
@@ -34,12 +39,12 @@
                 "crm_mv_lastname": "CARTER_085UK"
             },
             "questions": {
-                "Q00": {"value":"Q00_a1;Q00_a2;Q00_a3","answer_date": "25/10/04 18:03:07 GMT+0200" , "display": true, "never_asked_since":"0", "product_id":"prod1"},
-                "Q03": {"value":"Q03_A1","answer_date": "25/10/04 18:03:07 GMT+0200" , "display": true,"never_asked_since": "0","product_id":"prod1"},
-                "Q04": {"value": 60,"answer_date": "25/10/04 18:03:07 GMT+0200" , "display": true,"never_asked_since": "0","product_id":"prod1"},
-                "Q05": {"value": null,"answer_date": "25/10/04 18:03:07 GMT+0200" , "display": true,"never_asked_since": "-5","product_id":"prod1"},
-                "Q07": {"value": null,"answer_date": "25/10/04 18:03:07 GMT+0200" , "display": true,"never_asked_since": "-1","product_id":"prod1"},
-                "Q08": {"value": null,"answer_date": "25/10/04 18:03:07 GMT+0200" , "display": false,"never_asked_since": "0","product_id":"prod1"}
+                "Q00": {"value":"Q00_a1;Q00_a2;Q00_a3","answer_date": "25/10/04 18:03:07 GMT+0200" , "display": true, "never_asked_since":"0", "product_id":"prod1","mandatory":false},
+                "Q03": {"value":"Q03_A1","answer_date": "25/10/04 18:03:07 GMT+0200" , "display": true,"never_asked_since": "0","product_id":"prod1","mandatory":false},
+                "Q04": {"value": 60,"answer_date": "25/10/04 18:03:07 GMT+0200" , "display": true,"never_asked_since": "0","product_id":"prod1","mandatory":false},
+                "Q05": {"value": null,"answer_date": "25/10/04 18:03:07 GMT+0200" , "display": true,"never_asked_since": "-5","product_id":"prod1","mandatory":false},
+                "Q07": {"value": null,"answer_date": "25/10/04 18:03:07 GMT+0200" , "display": true,"never_asked_since": "-1","product_id":"prod1","mandatory":false},
+                "Q08": {"value": null,"answer_date": "25/10/04 18:03:07 GMT+0200" , "display": false,"never_asked_since": "0","product_id":"prod1","mandatory":false}
             },
             "discussed_nonclm_presentation": ["Prod1", "Prod2", "Prod3"],// a remplacer
             "next_call_topic": {
