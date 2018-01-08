@@ -9,7 +9,7 @@
               "sm_callid": "uniq id",
               "crm_v_callid": null,
               "crm_mv_closedType": "postcall",
-              "crm_mv_is_preview": false,
+              "crm_mv_had_preview": false,
               "date": {
                   "dev_start_date": "timestamp",
                   "crm_mv_start_date": "timestamp",
