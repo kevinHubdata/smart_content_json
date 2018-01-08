@@ -88,6 +88,7 @@
                   "fm_chapter": "chapter name",
                   "fm_category_id": "cat1",
                   "crm_m_keymessage_category": null,
+                  "crm_m_preview": false,
                   "sm_pdf": [{
                        "fm_name": "pdf01",
                        "sm_duration": "76786786",
