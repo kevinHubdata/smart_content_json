@@ -10,6 +10,7 @@
               "crm_v_callid": null,
               "crm_mv_closedType": "postcall",
               "crm_mv_had_preview": false,
+              "crm_mv_preview_start_date": null,
               "date": {
                   "dev_start_date": "timestamp",
                   "crm_mv_start_date": "timestamp",
