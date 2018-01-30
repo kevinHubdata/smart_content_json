@@ -1,5 +1,6 @@
 {
     "cust22": { 
+        "customer_id": "uniq id",
         "type": "PUT or GET",
         "put_date": "1513869023045",
         "get_date": "1513869067889",
