@@ -1,0 +1,5 @@
+// File structure
+{
+    “hcp”:[{}], // Contains one JSON EADV_TO_SERVER_LCR.json
+    “calls”:[{},{},{},{},{}] // Contains many JSON EADV_TO_SERVER_CALL.json
+}
