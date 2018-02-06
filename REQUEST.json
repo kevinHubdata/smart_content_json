@@ -97,7 +97,7 @@
                             "mandatory": false
                         }
                     },
-                    "discussed_nonclm_presentation": ["Prod1", "Prod2", "Prod3"], // a remplacer
+                    "discussed_nonclm_presentation": ["Prod1", "Prod2", "Prod3"],
                     "next_call_topic": {
                         "Prod1": {
                             "state": "talk",
@@ -172,7 +172,7 @@
                             "mandatory": false
                         }
                     },
-                    "discussed_nonclm_presentation": ["Prod1", "Prod2", "Prod3"], // a remplacer
+                    "discussed_nonclm_presentation": ["Prod1", "Prod2", "Prod3"],
                     "next_call_topic": {
                         "Prod1": {
                             "state": "talk",
@@ -279,19 +279,19 @@
                     "crm_m_preview": false,
                     "sm_pdf": [{
                         "fm_name": "pdf01",
-                        "sm_duration": "76786786",
+                        "sm_duration": "76786786"
                     }, {
                         "fm_name": "pdf02",
-                        "sm_duration": "76786786",
+                        "sm_duration": "76786786"
                     }],
                     "sm_feedback": "POSI or NEG or NEUTRAL",
                     "sm_reference": ["1500", "4500"],
                     "sm_popup": [{
                         "fm_name": "popup01",
-                        "sm_duration": "76786786",
+                        "sm_duration": "76786786"
                     }, {
                         "fm_name": "popup02",
-                        "sm_duration": "76786786",
+                        "sm_duration": "76786786"
                     }],
                     "sm_animation": [{
                         "fm_name": "graph5",
