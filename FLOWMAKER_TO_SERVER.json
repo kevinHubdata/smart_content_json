@@ -130,8 +130,8 @@
              "fm_presentation_smpc": [],
              "clm_presentation_id": null,
              "clm_presentation_name": null,
-             "fm_version": {
-                 "fm_version_id": "uniq id",
+             "fm_version_id": "uniq id",
+             "fm_version_detail": {
                  "fm_version_generate_date": "timestamp",
                  "fm_version_export_date": "timestamp",
                  "fm_version_flow_count": "1",
