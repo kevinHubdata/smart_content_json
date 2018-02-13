@@ -2,36 +2,36 @@
       {
           "type": "PUT or GET",
           "gmt_offset": "-1",
-          "put_date": "timestamp",
-          "get_date": "timestamp",
+          "put_date": 1518536780,
+          "get_date": 1518536755,
           "call": {
-              "sm_callid": "uniq id",
-              "crm_v_callid": null,
+              "sm_callid": "5a83085fb3323",
+              "crm_v_callid": null, // Can be null
               "crm_mv_closedType": "postcall",
               "crm_mv_had_preview": false,
-              "crm_mv_preview_start_date": null,
+              "crm_mv_preview_start_date": null, // Can be null
               "date": {
-                  "dev_start_date": "timestamp",
-                  "crm_mv_start_date": "timestamp",
-                  "dev_end_date": "timestamp"
+                  "dev_start_date": 1518536832,
+                  "crm_mv_start_date": 15185368442,
+                  "dev_end_date": 1518536842
               }
           },
           "device": {
               "location": {
-                  "dev_longitude": null,
-                  "dev_latitude": null
+                  "dev_longitude": null, // Can be null
+                  "dev_latitude": null // Can be null
               },
               "dev_userAgent": "Mozilla\/5.0 (iPad; U; CPU iPad OS 4_3 like Mac OS X; en-us) AppleWebKit\/534.32 (KHTML, like Gecko) Mobile\/8F190 Version\/4.2.0 Safari\/528.16",
               "dev_language": "FR-fr",
-              "dev_orientation": "landscape",
-              "crm_m_rotation_blocked": "false",
-              "crm_m_cache_memory_warning": true,
+              "dev_orientation": "landscape", // Can be null
+              "crm_m_rotation_blocked": "false", // Can be null
+              "crm_m_cache_memory_warning": true, // Can be null
               "dev_local_storage_capacity": 4800,
               "dev_local_storage_total_call": 1,
               "dev_local_storage_total_lcr": 1
           },
           "reps": {
-              "crm_v_id": null,
+              "crm_v_id": null, // Can be null
               "crm_mv_firstname": " Vince",
               "crm_mv_lastname": "CARTER_085UK"
           },
@@ -43,7 +43,7 @@
               "crm_email": "tabassa.abbas-wright@yahoo.com",
               "crm_speciality": "0471",
               "crm_segmentation": "Potential",
-              "crm_addresses": [{
+              "crm_addresses": [{ // Can be null
                   "addressid": "70000043529111",
                   "line1": "Pine Street",
                   "city": "London",
@@ -55,64 +55,64 @@
       }, 
       {
           "presentation": {
-              "fm_presentation_id": "uniq id",
-              "fm_presentation_name": "presentation name",
-              "fm_presentation_version_id": "uniq id",
-              "crm_mv_name": "Comigral_SC",
-              "crm_mv_validation_code": null,
-              "crm_mv_order": "0",
+              "fm_presentation_id": "5a8308dddd510",
+              "fm_presentation_name": "1709_MER_FR_OTC_SET",
+              "fm_presentation_version_id": "5a830916b7e69",
+              "crm_mv_name": "Setral_flow1",
+              "crm_mv_validation_code": null, // Can be null
+              "crm_mv_order": "0", // Can be null
               "crm_m_link_thumbnail": "\/Presentations\/7005724002798426\/200x150.jpg",
               "fm_thumbnail": "base64",
               "date": {
-                  "crm_mv_start_date": "timestamp",
-                  "dev_start_date": "timestamp",
-                  "dev_end_date": "timestamp"
+                  "crm_mv_start_date": 1518537022,
+                  "dev_start_date": 1518537066,
+                  "dev_end_date": 1518537088
               },
-              "crm_mv_survey": [{
+              "crm_mv_survey": [{ // Can be null
                   "fm_crm_survey_id": "jbdssbhfvsdfv",
                   "fm_crm_answer": "Yes"
               }]
           },
           "sequence": {
-              "crm_mv_seq_name": "Comigral_smart_content",
-              "crm_m_seq_parameters_id": "MONO_1707_Dev_GLO_Comigral_1_20170727",
-              "fm_seq_id": "uniq id",
-              "fm_seq_version": "uniq id",
-              "crm_mv_seq_feedback": "POSI or NEG or NEUTRAL",
+              "crm_mv_seq_name": "Setral_flow1",
+              "crm_m_seq_parameters_id": "MONO_1707_Dev_GLO_SET_1_20170727",
+              "fm_seq_id": "5a8309d27ce18",
+              "fm_seq_version": "5a8309df203a3",
+              "crm_mv_seq_feedback": "POSI or NEG or NEUTRAL", // Can be null
               "screen": [{
-                  "fm_screen_id": "uniq id",
-                  "crm_mv_name": "page-ID",
-                  "crm_mv_start": "timestamp",
-                  "sm_duration": "5000",
-                  "fm_screen_name": "Screen name",
-                  "fm_chapter": "chapter name",
-                  "fm_category_id": "cat1",
-                  "crm_m_keymessage_category": null,
+                  "fm_screen_id": "5a8309f2e821c",
+                  "crm_mv_name": "PAGE-ID",
+                  "crm_mv_start": 1518537236, // Unix timestamp
+                  "sm_duration": 1500,
+                  "fm_screen_name": "Home", // Can be null or empty
+                  "fm_chapter": "Home",  // Can be null or empty
+                  "fm_category_id": 1,
+                  "crm_m_keymessage_category": null,  // Can be null
                   "crm_m_preview": false,
-                  "sm_pdf": [{
+                  "sm_pdf": [{ // Can be null
                        "fm_name": "pdf01",
-                       "sm_duration": "76786786",
+                       "sm_duration": 2500,
                   },{
                        "fm_name": "pdf02",
-                       "sm_duration": "76786786",
-                  }],
-                  "sm_feedback": "POSI or NEG or NEUTRAL",
-                  "sm_reference":["1500","4500"],
-                  "sm_popup": [{
+                       "sm_duration": 7500,
+                  }], 
+                  "sm_feedback": "POSI or NEG or NEUTRAL", // Can be null
+                  "sm_reference":[2500,4500], // Can be null
+                  "sm_popup": [{ // Can be null
                        "fm_name": "popup01",
-                       "sm_duration": "76786786",
+                       "sm_duration": 3000,
                   },{
                        "fm_name": "popup02",
-                       "sm_duration": "76786786",
+                       "sm_duration": 10000,
                   }],
-                  "sm_animation": [{
+                  "sm_animation": [{ // Can be null
                        "fm_name": "graph5",
                        "sm_duration": 800, 
                        "sm_trigger": "AUTO"
                   }]
               }]
           },
-          "logs": [{
+          "logs": [{ // Can be null
               "Error hcp segmentation": {
                   "line": "71",
                   "column": "54",
