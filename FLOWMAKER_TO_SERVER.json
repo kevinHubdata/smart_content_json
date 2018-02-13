@@ -3,58 +3,60 @@
   "client": {
          "company": {
              "gmt_offset": "-1",
-             "fm_company_id": "uniq id",
+             "fm_company_id": 1,
              "fm_company_name": "Merck",
              "fm_region_list": {
-                 "EU": "Europe",
-                 "AF": "Africa",
-                 "AS": "Asia"
+                 "EU": "Europe"
              },
              "fm_country_list": {
-                 "FR": "France",
-                 "GB": "United Kingdom",
-                 "BE": "Belgium"
+                 381: "France",
+                 383: "United Kingdom",
+                 328: "Belgium"
              },
              "fm_bu_list": {
-                 "DIA": "Diabete",
-                 "CAR": "Cardiovascular",
-                 "OTC": "OTC",
-                 "PAI": "Pain"
+                 1: "Diabete",
+                 2: "Cardiovascular",
+                 3: "OTC"
              },
              "fm_speciality": {
-                "spe1": "Nurse",
-                "spe2": "Diabetologist",
+                4: "Nurse",
+                22: "Hematologist",
              },
-             "fm_fm_access_date": "timestamp",
-             "fm_sm_access_date": "timestamp",
+             "fm_fm_access_date": 1518531681, // unix timestamp
+             "fm_sm_access_date": 1518531681, // unix timestamp
              "fm_product_list": {
+                 "SET": "Setral",
+                 "TOU": "Toujerto",
+                 "AWA": "Awani",
+                 "BAN": "Banzenera",
                  "COM": "Comigral",
-                 "MAV": "Mavencad",
-                 "REB": "Rebif",
-                 "GLU": "Glucophage",
-                 "JAN": "Januvia",
-                 "LEV": "Levothyrox"
+                 "DIA": "Diatophage"
              },
              "fm_category_list": {
-                 "cat1": "efficacy",
-                 "cat2": "posologie",
-                 "cat3": "epidemilogie"
+                 11: "efficacy",
+                 10: "Conclusion",
+                 8: "Safety"
              },
-             "fm_sellingstep_list": [{
-                 "id": "sp1",
-                 "order": "1",
-                 "name": "customname"
+             "fm_sellingstep_list": [{ // Can be null
+                 "id": 1,
+                 "order": 1,
+                 "name": "Situation"
+             },
+             [{
+                 "id": 2,
+                 "order": 2,
+                 "name": "Mecanism"
              }],
-             "fm_specialty_list": {
-                    "spe1":{
-                       "master_name": "cardiologist",
-                       "trad_name": "cardiologiste",
-                       "mi_code": null
+             "fm_specialty_list": { // Can be null
+                    4:{
+                       "master_name": "Nurse",
+                       "trad_name": "Nurse",
+                       "mi_code": "0A07"
                     },
-                   "spe2":{
-                       "master_name": "diabetologist",
-                       "trad_name": "diabetologiste",
-                       "mi_code": null
+                   22:{
+                       "master_name": "Hematologist",
+                       "trad_name": "Hematologist",
+                       "mi_code": "086A"
                    }
              },
              "fm_lcr_survey_level_list": [{
@@ -68,7 +70,7 @@
              }]
          },
          "user": {
-             "fm_user_id": "4",
+             "fm_user_id": 4,
              "fm_user_name": "julien.meichler",
              "fm_firstname": "julien",
              "fm_lastname": "meichler",
@@ -80,136 +82,134 @@
          }
      },
      "project": {
-         "fm_project_id": "uniq id",
-         "fm_host_id":"id",
-         "fm_create_date": "2017/10/04 18:03:07 GMT+0200",
+         "fm_project_id": "5a6f239d8369b",
+         "fm_host_id":"5a7b194e5b7e5",
+         "fm_create_date": 1518531681, // Unix timestamp
          "fm_project_product_id": "COM",
          "fm_project_product_name": "COMIGRAL",
-         "fm_project_bu_id": "OTC",
-         "fm_project_bu_name": "Pain",
+         "fm_project_bu_id": 1,
+         "fm_project_bu_name": "Diabete",
          "fm_project_country_id": "FR",
          "fm_project_country_name": "France",
-         "fm_campaign_id": "uniq id",
-         "fm_camapaign_name": "OTC basket promotion 2017",
+         "fm_campaign_id": "5a81b71c9e9fc",
+         "fm_campaign_name": null, // Can be null
          "fm_source": "FM",
-         "fm_authorized_users": ["4", "2", "1"],
-         "clm_id": null,
-         "clm_name": null,
+         "fm_authorized_users": ["4", "2", "1"], // Can be null
+         "clm_id": null, // Can be null
+         "clm_name": null, // Can be null
          "presentation": {
-             "fm_presentation_id": "uniq id",
+             "fm_presentation_id": "5a7c21309790e",
              "fm_presentation_spoken_language": "FR",
              "fm_presentation_channel": "EDE",
              "fm_presentation_reps_team_configuration": [{
-                 "fm_reps_team_name": null,
-                 "fm_product_portfolio": ["productID", "productID", "productID"],
-                 "fm_product_position": {
-                     "P1": "productID",
-                     "P2": "productID",
-                     "P3": "productID"
+                 "fm_reps_team_name": null, // Can be null
+                 "fm_product_portfolio": ["SET", "TOU", "AWA"], // Can be null
+                 "fm_product_position": { // Can be null
+                     "P1": "SET"
                  },
-                 "fm_reps_quantity": 10,
-                 "fm_average_call_day": 9,
-                 "fm_visited_hcp_id": ["spe1", "spe2"]
+                 "fm_reps_quantity": 10, // Can be null
+                 "fm_average_call_day": 9, // Can be null
+                 "fm_visited_hcp_id": [4,22] // Can be null
              }],
              "fm_presentation_origin": "NEW or LOC or MASTER",
              "fm_presentation_name": "1709_MER_FR_OTC_COM",
              "fm_presentation_thumbnail": "base64",
-             "fm_presentation_deployement_date": "timestamp",
-             "fm_presentation_expiration_date": "timestamp",
-             "fm_presentation_approval_code": null,
+             "fm_presentation_deployement_date": 1518531946, // Unix timestamp
+             "fm_presentation_expiration_date": 151878946, // Unix timestamp
+             "fm_presentation_approval_code": null, // Can be null
              "fm_presentation_custom_name": "Comigral flow introduction",
-             "fm_presentation_product_id": "productID",
-             "fm_presentation_product_name": "Comigral",
-             "fm_presentation_bu_id": "buID",
-             "fm_presentation_bu_name": "Pain",
-             "fm_presentation_crm_id": "crmID",
+             "fm_presentation_product_id": "SET",
+             "fm_presentation_product_name": "SETRAL",
+             "fm_presentation_bu_id": 1,
+             "fm_presentation_bu_name": "Diabete",
+             "fm_presentation_crm_id": 1,
              "fm_presentation_crm_name": "MI",
-             "fm_presentation_export_type": "MONO",
-             "fm_presentation_device_id": "deviceID",
+             "fm_presentation_export_type": 1,
+             "fm_presentation_device_id": 1,
              "fm_presentation_device_name": "Ipad",
-             "fm_presentation_custom_marketer_message": "Good luck with this presentation fill free to check your reps speech in the training functionality.",
-             "fm_presentation_smpc": [],
-             "clm_presentation_id": null,
-             "clm_presentation_name": null,
-             "fm_version_id": "uniq id",
+             "fm_presentation_custom_marketer_message": "Good luck with this presentation.", // Can be null
+             "fm_presentation_smpc": [], // Can be null
+             "clm_presentation_id": null, // Can be null
+             "clm_presentation_name": null, // Can be null
+             "fm_version_id": "5a7b1c8e0b641",
              "fm_version_detail": {
-                 "fm_version_generate_date": "timestamp",
-                 "fm_version_export_date": "timestamp",
-                 "fm_version_flow_count": "1",
-                 "fm_sm_lcr_active": true,
-                 "fm_sm_update": true
+                 "fm_version_generate_date": 1518537946, // Unix timestamp
+                 "fm_version_export_date": 1518531846, // Unix timestamp
+                 "fm_version_flow_count": 1,
+                 "fm_sm_lcr_active": true, // Can be null
+                 "fm_sm_update": true // Can be null
              },
-             "crm_mv_survey": []
+             "crm_mv_survey": [] // Can be null
          },
          "sequence": [{
-             "fm_sequence_id": "uniq id",
+             "fm_sequence_id": "5a82fba765bbc",
              "fm_sequence_name": "1709_MER_FR_OTC_COM_1507131656",
-             "fm_sequence_version": "uniq id",
+             "fm_sequence_version": "5a82fbb729afc",
              "fm_sequence_is_shared": false,
              "flows": [{
                  "id": "flow1",
-                 "custom_name": null,
+                 "custom_name": null, // Can be null
                  "fm_flows_thumbnail": "base64",
-                 "product_id": ["productID"],
-                 "marketers_custom_message": null,
+                 "product_id": ["SET"],
+                 "marketers_custom_message": null, // Can be null
                  "screen": [{
-                     "fm_screen_id": "uniq id",
-                     "fm_origin_version": "uniq id",
+                     "fm_screen_id": "5a82fbe06405f",
+                     "fm_origin_version": "5a82fbe88c756",
                      "fm_screen_name": "Home",
-                     "fm_refer_to": null,
+                     "fm_refer_to": null, // Can be null
                      "fm_position_id": "1_00.00",
-                     "fm_level_importance": "HIGH LOW STANDARD",
-                     "fm_chapter": "Home",
-                     "fm_sub_chapter": null,
+                     "fm_level_importance": "HIGH LOW STANDARD", // Can be null
+                     "fm_chapter": "Home", // Can be empty or null
+                     "fm_sub_chapter": null, // Can be empty or null
                      "fm_thumbnail": "base 64",
                      "fm_datatrackname": "1_Home_1",
-                     "fm_category_id": "catedoryID",
-                     "fm_key_message": "Erase the word pain from your life",
-                     "fm_objective": null,
-                     "fm_selling_steps_id": null,
-                     "fm_custom_data": null,
-                     "fm_product_id": "productID",
-                     "fm_reps_speech": null,
-                     "fm_popup": [{
-                             "fm_name": "poup_name_1",
-                             "fm_category": "cat1",
-                             "custom_message": "freetext"
+                     "fm_category_id": 1,
+                     "fm_key_message": "Erase the word pain from your life", // Can be empty or null
+                     "fm_objective": null, // Can be null
+                     "fm_selling_steps_id": null, // Can be null
+                     "fm_custom_data": null, // Can be null
+                     "fm_product_id": "SET",
+                     "fm_reps_speech": null, // Can be null
+                     "fm_popup": [{ // Can be null
+                             "fm_name": "poup_name_1", // Can be null
+                             "fm_category": 1, // Can be null
+                             "custom_message": "freetext" // Can be null
                          },
                          {
                              "fm_name": "poup_name_2",
-                             "fm_category": "cat1",
+                             "fm_category": 2,
                              "custom_message": "freetext"
                          }
                      ],
-                     "fm_flip_flap": [{
-                         "fm_flip_name": "flip_name",
-                         "fm_flip_category": "cat2",
-                         "fm_flip_custom_message": "freetext",
-                         "fm_flap_name": "flip_name",
-                         "fm_flap_category": "cat3",
-                         "fm_flap_custom_message": "freetext"
+                     "fm_flip_flap": [{ // Can be null
+                         "fm_flip_name": "flip_name", // Can be null
+                         "fm_flip_category": 1, // Can be null
+                         "fm_flip_custom_message": "freetext", // Can be null
+                         "fm_flap_name": "flip_name", // Can be null
+                         "fm_flap_category": 3, // Can be null
+                         "fm_flap_custom_message": "freetext" // Can be null
                      }],
-                     "fm_pdf": [{
-                         "fm_name": null
+                     "fm_pdf": [{ // Can be null
+                         "fm_name": null // Can be null
                      }],
-                     "fm_reference": false,
-                     "fm_video": [{
-                         "fm_name": null,
-                         "fm_total_duration": null
+                     "fm_reference": false, // Can be null
+                     "fm_video": [{ // Can be null
+                         "fm_name": null, // Can be null
+                         "fm_total_duration": null // Can be null
                      }],
-                     "fm_animation": [{
-                         "fm_name": "graph5",
-                         "fm_duration": 500,
-                         "fm_trigger": "AUTO or TAP",
-                         "fm_id": "1",
-                         "fm_type": "graphc",
-                         "fm_order": "500"
+                     "fm_animation": [{ // Can be null
+                         "fm_name": "graph5", // Can be null
+                         "fm_duration": 500, // Can be null
+                         "fm_trigger": "AUTO or TAP", // Can be null
+                         "fm_id": 1, // Can be null
+                         "fm_type": "graphc", // Can be null
+                         "fm_order": "500" // Can be null
                      }]
                  }]
              }]
          }],
          "flows": {
-             "flow1": ["fm_screen_id", "fm_screen_id"]
+             "flow1": ["5a82fbe06405f"]
          },
          "last_call_report": {
              "general_settings": {
@@ -360,15 +360,15 @@
                      "id": "Q00",
                      "question_name": "Comments?",
                      "type": "textarea",
-                     "answer_value": null,
-                     "level_id": "levelID",
+                     "answer_value": null, // Can be null
+                     "level_id": "HCP",
                      "sub_level_id": null,
                      "recurence": 0,
-                     "speciality_filter_id": [],
+                     "speciality_filter_id": [], // Can be null
                      "expiration_date": null,
                      "weight": 6,
                      "order": 2,
-                     "high_priority_order_product": null,
+                     "high_priority_order_product": null, // Can be null
                      "conditions": [],
                      "html": "<div sm_id='Q00' type='textarea'><h3>Comments?</h3><textarea></textarea></div>"
                  },
