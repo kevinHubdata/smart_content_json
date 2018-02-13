@@ -95,7 +95,7 @@
          "fm_project_product_name": "COMIGRAL",
          "fm_project_bu_id": 1,
          "fm_project_bu_name": "Diabete",
-         "fm_project_country_id": "FR",
+         "fm_project_country_id": 381,
          "fm_project_country_name": "France",
          "fm_campaign_id": "5a81b71c9e9fc",
          "fm_campaign_name": null, // Can be null
@@ -105,7 +105,7 @@
          "clm_name": null, // Can be null
          "presentation": {
              "fm_presentation_id": "5a7c21309790e",
-             "fm_presentation_spoken_language": "FR",
+             "fm_presentation_spoken_language": 1,
              "fm_presentation_channel": "EDE",
              "fm_presentation_reps_team_configuration": [{
                  "fm_reps_team_name": null, // Can be null
