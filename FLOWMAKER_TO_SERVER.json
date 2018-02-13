@@ -81,6 +81,7 @@
      },
      "project": {
          "fm_project_id": "uniq id",
+         "fm_host_id":"id",
          "fm_create_date": "2017/10/04 18:03:07 GMT+0200",
          "fm_project_product_id": "COM",
          "fm_project_product_name": "COMIGRAL",
