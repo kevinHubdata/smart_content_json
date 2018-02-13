@@ -123,7 +123,7 @@
              "fm_presentation_deployement_date": 1518531946, // Unix timestamp
              "fm_presentation_expiration_date": 151878946, // Unix timestamp
              "fm_presentation_approval_code": null, // Can be null
-             "fm_presentation_custom_name": "Comigral flow introduction",
+             "fm_presentation_custom_name": "Comigral flow introduction", // Can be null
              "fm_presentation_product_id": "SET",
              "fm_presentation_product_name": "SETRAL",
              "fm_presentation_bu_id": 1,
