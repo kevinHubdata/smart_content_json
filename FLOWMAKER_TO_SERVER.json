@@ -8,19 +8,22 @@
              "fm_region_list": {
                  "EU": "Europe"
              },
+             "fm_language_list": {
+                 "1": "French"
+             },
              "fm_country_list": {
-                 381: "France",
-                 383: "United Kingdom",
-                 328: "Belgium"
+                 "381": "France",
+                 "383": "United Kingdom",
+                 "328": "Belgium"
              },
              "fm_bu_list": {
-                 1: "Diabete",
-                 2: "Cardiovascular",
-                 3: "OTC"
+                 "1": "Diabete",
+                 "2": "Cardiovascular",
+                 "3": "OTC"
              },
              "fm_speciality": {
-                4: "Nurse",
-                22: "Hematologist",
+                "4": "Nurse",
+                "22": "Hematologist",
              },
              "fm_fm_access_date": 1518531681, // unix timestamp
              "fm_sm_access_date": 1518531681, // unix timestamp
@@ -33,9 +36,9 @@
                  "DIA": "Diatophage"
              },
              "fm_category_list": {
-                 11: "efficacy",
-                 10: "Conclusion",
-                 8: "Safety"
+                 "11": "efficacy",
+                 "10": "Conclusion",
+                 "8": "Safety"
              },
              "fm_sellingstep_list": [{ // Can be null
                  "id": 1,
@@ -48,12 +51,12 @@
                  "name": "Mecanism"
              }],
              "fm_specialty_list": { // Can be null
-                    4:{
+                    "4":{
                        "master_name": "Nurse",
                        "trad_name": "Nurse",
                        "mi_code": "0A07"
                     },
-                   22:{
+                   "22":{
                        "master_name": "Hematologist",
                        "trad_name": "Hematologist",
                        "mi_code": "086A"
