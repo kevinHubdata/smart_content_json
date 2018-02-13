@@ -1,57 +1,56 @@
 {
     "cust22": { 
-        "customer_id": "uniq id",
+        "customer_id": "5a8305db58f0d",
         "type": "PUT or GET",
-        "put_date": "1513869023045",
-        "get_date": "1513869067889",
+        "put_date": 1518536204, // Unix timestamp
+        "get_date": 1518536204, // Unix timestamp
         "gmt_offset": "-1",
         "server_total_call": 12,
         "server_total_call_presentation":{
-            "fm_presentation_id": {"total":3,"lastDate":1514913814913},
-            "fm_presentation_id": {"total":1,"lastDate":1514913814913}
+            "5a830619d2249": {"total":3,"lastDate":1518536243},
+            "5a830623a5dfc": {"total":1,"lastDate":1518588299}
         },
-        "server_speciality": {
-                "ua04" : "spe1",
-                "ua05" : "spe2",
-                "ua06" : "spe3"
+        "server_speciality": { // Can be null
+                "ua04" : 2,
+                "ua05" : 3,
+                "ua06" : 4
         },
         "infos": {
             "crm_mv_firstname": "Tabassan",
             "crm_mv_lastname": "Abbas-Wright",
             "crm_mv_potential": "H",
             "crm_mv_segment": "Potential",
-            "sm_lcr_gender": "male",
+            "sm_lcr_gender": "male", // Can be null
             "sm_lcr_phone": "01 45 65 45 32",
             "sm_lcr_mail": "tabassan.wright@yahoo.fr",
             "crm_speciality": "ua04"
-
         },
         "call": [{
-            "callDate": "1513869067889",
-            "fm_id": "uniq id",
-            "sm_callid": "uniq id",
-            "ser_pres_view_qty": 1,
-            "lcr_digital_interest": 10,
-            "lcr_brand_loyalty": 6,
-            "lcr_presentation_interest": 10,
-            "lcr_reps_comments": "free text",
+            "callDate": 1518536327, // Unix timestamp
+            "fm_id": "5a830691b72cf",
+            "sm_callid": "af54f77c-aed5-f0a5-ff1c-e21a2d621cac",
+            "ser_pres_view_qty": 1, // Can be null
+            "lcr_digital_interest": 10, // Can be null
+            "lcr_brand_loyalty": 6, // Can be null
+            "lcr_presentation_interest": 10, // Can be null
+            "lcr_reps_comments": "free text", // Can be null
             "reps": {
                 "crm_mv_firstname": " Vince",
                 "crm_mv_lastname": "CARTER_085UK"
             },
             "questions": {
-                "Q00": {"value":"Q00_a1;Q00_a2;Q00_a3","answer_date": "25/10/04 18:03:07 GMT+0200" , "display": true, "never_asked_since":"0", "product_id":"prod1","mandatory":false},
-                "Q03": {"value":"Q03_A1","answer_date": "25/10/04 18:03:07 GMT+0200" , "display": true,"never_asked_since": "0","product_id":"prod1","mandatory":false},
-                "Q04": {"value": 60,"answer_date": "25/10/04 18:03:07 GMT+0200" , "display": true,"never_asked_since": "0","product_id":"prod1","mandatory":false},
-                "Q05": {"value": null,"answer_date": "25/10/04 18:03:07 GMT+0200" , "display": true,"never_asked_since": "-5","product_id":"prod1","mandatory":false},
-                "Q07": {"value": null,"answer_date": "25/10/04 18:03:07 GMT+0200" , "display": true,"never_asked_since": "-1","product_id":"prod1","mandatory":false},
-                "Q08": {"value": null,"answer_date": "25/10/04 18:03:07 GMT+0200" , "display": false,"never_asked_since": "0","product_id":"prod1","mandatory":false}
+                "Q0": {"value":"Q0_a1;Q0_a2;Q0_a3","answer_date": 1518536437 , "display": true, "never_asked_since":"0", "product_id": "SET","mandatory":false},
+                "Q3": {"value":"Q3_A1","answer_date": 1518536438 , "display": true,"never_asked_since": "0","product_id":"SET","mandatory":false},
+                "Q4": {"value": 60,"answer_date": 1518536439 , "display": true,"never_asked_since": "0","product_id":"SET","mandatory":false},
+                "Q5": {"value": null,"answer_date": 1518536411 , "display": true,"never_asked_since": "-5","product_id":"SET","mandatory":false},
+                "Q7": {"value": null,"answer_date": 1518536412 , "display": true,"never_asked_since": "-1","product_id":"SET","mandatory":false},
+                "Q8": {"value": null,"answer_date": 1518536413 , "display": false,"never_asked_since": "0","product_id":"SET","mandatory":false}
             },
-            "discussed_nonclm_presentation": ["Prod1", "Prod2", "Prod3"],// a remplacer
+            "discussed_nonclm_presentation": ["SET", "TOU", "AWA"], // Can be null
             "next_call_topic": {
                 "Prod1": {
                     "state": "talk",
-                    "category": ["cat1", "cat2", "cat3"]
+                    "category": [1,2,3]
                 },
                 "Prod3": {
                     "state": "donttalk",
