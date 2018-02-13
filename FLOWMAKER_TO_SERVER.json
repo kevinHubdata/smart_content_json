@@ -3,58 +3,66 @@
   "client": {
          "company": {
              "gmt_offset": "-1",
-             "fm_company_id": "uniq id",
+             "fm_company_id": 1,
              "fm_company_name": "Merck",
              "fm_region_list": {
-                 "EU": "Europe",
-                 "AF": "Africa",
-                 "AS": "Asia"
+                 "EU": "Europe"
+             },
+             "fm_language_list": {
+                 "1": "French"
+             },
+             "fm_position_list":{
+                 "1": "Project manager"
              },
              "fm_country_list": {
-                 "FR": "France",
-                 "GB": "United Kingdom",
-                 "BE": "Belgium"
+                 "381": "France",
+                 "383": "United Kingdom",
+                 "328": "Belgium"
              },
              "fm_bu_list": {
-                 "DIA": "Diabete",
-                 "CAR": "Cardiovascular",
-                 "OTC": "OTC",
-                 "PAI": "Pain"
+                 "1": "Diabete",
+                 "2": "Cardiovascular",
+                 "3": "OTC"
              },
              "fm_speciality": {
-                "spe1": "Nurse",
-                "spe2": "Diabetologist",
+                "4": "Nurse",
+                "22": "Hematologist",
              },
-             "fm_fm_access_date": "timestamp",
-             "fm_sm_access_date": "timestamp",
+             "fm_fm_access_date": 1518531681, // unix timestamp
+             "fm_sm_access_date": 1518531681, // unix timestamp
              "fm_product_list": {
+                 "SET": "Setral",
+                 "TOU": "Toujerto",
+                 "AWA": "Awani",
+                 "BAN": "Banzenera",
                  "COM": "Comigral",
-                 "MAV": "Mavencad",
-                 "REB": "Rebif",
-                 "GLU": "Glucophage",
-                 "JAN": "Januvia",
-                 "LEV": "Levothyrox"
+                 "DIA": "Diatophage"
              },
              "fm_category_list": {
-                 "cat1": "efficacy",
-                 "cat2": "posologie",
-                 "cat3": "epidemilogie"
+                 "11": "efficacy",
+                 "10": "Conclusion",
+                 "8": "Safety"
              },
-             "fm_sellingstep_list": [{
-                 "id": "sp1",
-                 "order": "1",
-                 "name": "customname"
+             "fm_sellingstep_list": [{ // Can be null
+                 "id": 1,
+                 "order": 1,
+                 "name": "Situation"
+             },
+             {
+                 "id": 2,
+                 "order": 2,
+                 "name": "Mecanism"
              }],
-             "fm_specialty_list": {
-                    "spe1":{
-                       "master_name": "cardiologist",
-                       "trad_name": "cardiologiste",
-                       "mi_code": null
+             "fm_specialty_list": { // Can be null
+                    "4":{
+                       "master_name": "Nurse",
+                       "trad_name": "Nurse",
+                       "mi_code": "0A07"
                     },
-                   "spe2":{
-                       "master_name": "diabetologist",
-                       "trad_name": "diabetologiste",
-                       "mi_code": null
+                   "22":{
+                       "master_name": "Hematologist",
+                       "trad_name": "Hematologist",
+                       "mi_code": "086A"
                    }
              },
              "fm_lcr_survey_level_list": [{
