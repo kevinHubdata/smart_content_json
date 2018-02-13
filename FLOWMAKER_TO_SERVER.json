@@ -11,6 +11,9 @@
              "fm_language_list": {
                  "1": "French"
              },
+             "fm_position_list":{
+                 "1": "Project manager"
+             },
              "fm_country_list": {
                  "381": "France",
                  "383": "United Kingdom",
@@ -79,9 +82,9 @@
              "fm_lastname": "meichler",
              "fm_mail": "julien.meichler@hubdata.fr",
              "fm_account_type": "ADMIN",
-             "fm_spoken_language": "FR",
-             "fm_position_name": "PM",
-             "fm_user_country": "FR"
+             "fm_spoken_language": 1,
+             "fm_position_name": 6,
+             "fm_user_country": 381
          }
      },
      "project": {
