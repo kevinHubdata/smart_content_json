@@ -4,7 +4,7 @@
         "type": "PUT or GET",
         "put_date": 1518536204, // Unix timestamp
         "get_date": 1518536204, // Unix timestamp
-        "gmt_offset": "-1",
+        "gmt_offset": "-60",
         "server_total_call": 12,
         "server_total_call_presentation":{
             "5a830619d2249": {"total":3,"lastDate":1518536243},
