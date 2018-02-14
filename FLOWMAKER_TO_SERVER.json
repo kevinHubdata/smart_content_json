@@ -2,7 +2,7 @@
   "token":"%DjG^xLU!VE",   
   "client": {
          "company": {
-             "gmt_offset": "-1",
+             "gmt_offset": "-60", // Minutes
              "fm_company_id": 1,
              "fm_company_name": "Merck",
              "fm_region_list": {
