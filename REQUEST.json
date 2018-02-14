@@ -13,7 +13,7 @@
             "type": "PUT",
             "put_date": "1513869023045",
             "get_date": "1513869067889",
-            "gmt_offset": "-1",
+            "gmt_offset": "-60",
             "server_total_call": 1,
             "server_total_call_presentation": {
                 "fm_presentation_id": {
@@ -189,7 +189,7 @@
     }],
     "calls": [ [{
             "type": "PUT or GET",
-            "gmt_offset": "-1",
+            "gmt_offset": "-60",
             "put_date": "timestamp",
             "get_date": "timestamp",
             "call": {
@@ -316,7 +316,7 @@
         }],
         [{
             "type": "PUT or GET",
-            "gmt_offset": "-1",
+            "gmt_offset": "-60",
             "put_date": "timestamp",
             "get_date": "timestamp",
             "call": {
