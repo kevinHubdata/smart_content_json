@@ -1,7 +1,7 @@
 [
       {
           "type": "PUT or GET",
-          "gmt_offset": "-1",
+          "gmt_offset": "-60", // Minutes
           "put_date": "timestamp",
           "get_date": "timestamp",
           "call": {
