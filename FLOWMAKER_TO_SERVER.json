@@ -2,7 +2,7 @@
   "token":"%DjG^xLU!VE",   
   "client": {
          "company": {
-             "gmt_offset": "-60", // Minutes
+             "gmt_offset": "-60",
              "fm_company_id": 1,
              "fm_company_name": "Merck",
              "fm_region_list": {
@@ -28,8 +28,8 @@
                 "4": "Nurse",
                 "22": "Hematologist",
              },
-             "fm_fm_access_date": 1518531681, // unix timestamp
-             "fm_sm_access_date": 1518531681, // unix timestamp
+             "fm_fm_access_date": 1518531681,
+             "fm_sm_access_date": 1518531681,
              "fm_product_list": {
                  "SET": "Setral",
                  "TOU": "Toujerto",
@@ -43,7 +43,7 @@
                  "10": "Conclusion",
                  "8": "Safety"
              },
-             "fm_sellingstep_list": [{ // Can be null
+             "fm_sellingstep_list": [{
                  "id": 1,
                  "order": 1,
                  "name": "Situation"
@@ -53,7 +53,7 @@
                  "order": 2,
                  "name": "Mecanism"
              }],
-             "fm_specialty_list": { // Can be null
+             "fm_specialty_list": {
                     "4":{
                        "master_name": "Nurse",
                        "trad_name": "Nurse",
@@ -93,9 +93,9 @@
          "fm_create_date": "2017/10/04 18:03:07 GMT+0200",
          "fm_project_product_id": "COM",
          "fm_project_product_name": "COMIGRAL",
-         "fm_project_bu_id": "OTC",
+         "fm_project_bu_id": "OTC", // KPI bu
          "fm_project_bu_name": "Pain",
-         "fm_project_country_id": "FR",
+         "fm_project_country_id": "FR",  // KPI country
          "fm_project_country_name": "France",
          "fm_campaign_id": "uniq id",
          "fm_camapaign_name": "OTC basket promotion 2017",
@@ -126,9 +126,9 @@
              "fm_presentation_expiration_date": "timestamp",
              "fm_presentation_approval_code": null,
              "fm_presentation_custom_name": "Comigral flow introduction",
-             "fm_presentation_product_id": "productID",
+             "fm_presentation_product_id": "productID",  // KPI product
              "fm_presentation_product_name": "Comigral",
-             "fm_presentation_bu_id": "buID",
+             "fm_presentation_bu_id": "buID", 
              "fm_presentation_bu_name": "Pain",
              "fm_presentation_crm_id": "crmID",
              "fm_presentation_crm_name": "MI",
@@ -139,7 +139,7 @@
              "fm_presentation_smpc": [],
              "clm_presentation_id": null,
              "clm_presentation_name": null,
-             "fm_version_id": "uniq id",
+             "fm_version_id": "uniq id", // KPI id presentation
              "fm_version_detail": {
                  "fm_version_generate_date": "timestamp",
                  "fm_version_export_date": "timestamp",
@@ -155,13 +155,13 @@
              "fm_sequence_version": "uniq id",
              "fm_sequence_is_shared": false,
              "flows": [{
-                 "id": "flow1",
-                 "custom_name": null,
-                 "fm_flows_thumbnail": "base64",
-                 "product_id": ["productID"],
+                 "id": "flow1", // KPI flow name
+                 "custom_name": null, // KPI or flow name
+                 "fm_flows_thumbnail": "base64", // KPI thumbnail
+                 "product_id": ["productID"], 
                  "marketers_custom_message": null,
                  "screen": [{
-                     "fm_screen_id": "uniq id",
+                     "fm_screen_id": "uniq id", // KPI uniq screen id
                      "fm_origin_version": "uniq id",
                      "fm_screen_name": "Home",
                      "fm_refer_to": null,
