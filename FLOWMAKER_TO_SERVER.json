@@ -160,62 +160,114 @@
                  "fm_flows_thumbnail": "base64",
                  "product_id": ["productID"],
                  "marketers_custom_message": null,
-                 "screen": [{
-                     "fm_screen_id": "uniq id",
-                     "fm_origin_version": "uniq id",
-                     "fm_screen_name": "Home",
-                     "fm_refer_to": null,
-                     "fm_position_id": "1_00.00",
-                     "fm_level_importance": "HIGH LOW STANDARD",
-                     "fm_chapter": "Home",
-                     "fm_sub_chapter": null,
-                     "fm_thumbnail": "base 64",
-                     "fm_datatrackname": "1_Home_1",
-                     "fm_category_id": "catedoryID",
-                     "fm_key_message": "Erase the word pain from your life",
-                     "fm_objective": null,
-                     "fm_selling_steps_id": null,
-                     "fm_custom_data": null,
-                     "fm_product_id": "productID",
-                     "fm_reps_speech": null,
-                     "fm_popup": [{
+                 "screen":{
+                     "5a9ff9654eb61": {
+                         "fm_screen_id": "5a9ff9654eb61", 
+                         "fm_origin_version": "5a9ff93a0cc5e", 
+                         "fm_screen_name": "", 
+                         "fm_refer_to": "1_10.00", 
+                         "fm_position_id": "1_10.00", 
+                         "fm_level_importance": "must", 
+                         "fm_chapter": "Chapter10", 
+                         "fm_sub_chapter": "SubChapter00", 
+                         "fm_thumbnail": "base64", 
+                         "fm_datatrackname": "1_Chapter10_1_SubChapter00", 
+                         "fm_category_id": "11", 
+                         "fm_key_message": "Key message", 
+                         "fm_objective": null, 
+                         "fm_selling_steps_id": null, 
+                         "fm_custom_data": null, 
+                         "fm_product_id": null, 
+                         "fm_reps_speech": "Speech training",
+                         "fm_popup": [{
                              "fm_name": "poup_name_1",
-                             "fm_category": "cat1",
+                             "fm_category": "11",
                              "custom_message": "freetext"
                          },
                          {
                              "fm_name": "poup_name_2",
-                             "fm_category": "cat1",
+                             "fm_category": "11",
                              "custom_message": "freetext"
-                         }
-                     ],
-                     "fm_flip_flap": [{
-                         "fm_flip_name": "flip_name",
-                         "fm_flip_category": "cat2",
-                         "fm_flip_custom_message": "freetext",
-                         "fm_flap_name": "flip_name",
-                         "fm_flap_category": "cat3",
-                         "fm_flap_custom_message": "freetext"
-                     }],
-                     "fm_pdf": [{
-                         "fm_name": null
-                     }],
-                     "fm_reference": false,
-                     "fm_video": [{
-                         "fm_name": null,
-                         "fm_total_duration": null
-                     }],
-                     "fm_animation": [{
-                         "fm_name": "graph5",
-                         "fm_duration": 500,
-                         "fm_trigger": "AUTO or TAP",
-                         "fm_id": "1",
-                         "fm_type": "graphc",
-                         "fm_order": "500"
-                     }]
-                 }]
-             }]
-         }],
+                         }],
+                         "fm_flip_flap": [{
+                             "fm_flip_name": "flip_name",
+                             "fm_flip_category": "11",
+                             "fm_flip_custom_message": "freetext",
+                             "fm_flap_name": "flip_name",
+                             "fm_flap_category": "11",
+                             "fm_flap_custom_message": "freetext"
+                         }],
+                         "fm_pdf": [{
+                             "fm_name": null
+                         }],
+                         "fm_reference": false,
+                         "fm_video": [{
+                             "fm_name": null,
+                             "fm_total_duration": null
+                         }],
+                         "fm_animation": [{
+                             "fm_name": "graph5",
+                             "fm_duration": 500,
+                             "fm_trigger": "AUTO",
+                             "fm_id": "1",
+                             "fm_type": "graphc",
+                             "fm_order": "500"
+                         }]
+                     },
+                     "5a9ff9ac81c6f": {
+                         "fm_screen_id": "5a9ff9ac81c6f", 
+                         "fm_origin_version": "5a9ff9ac81c6f", 
+                         "fm_screen_name": "", 
+                         "fm_refer_to": "1_20.00", 
+                         "fm_position_id": "1_20.00", 
+                         "fm_level_importance": "low", 
+                         "fm_chapter": "Chapter20", 
+                         "fm_sub_chapter": "SubChapter00", 
+                         "fm_thumbnail": "base64", 
+                         "fm_datatrackname": "1_Chapter20_2_SubChapter00", 
+                         "fm_category_id": "8", 
+                         "fm_key_message": "Key message", 
+                         "fm_objective": null, 
+                         "fm_selling_steps_id": null, 
+                         "fm_custom_data": null, 
+                         "fm_product_id": null, 
+                         "fm_reps_speech": "Speech training",
+                         "fm_popup": [{
+                             "fm_name": "poup_name_1",
+                             "fm_category": "11",
+                             "custom_message": "freetext"
+                         },
+                         {
+                             "fm_name": "poup_name_2",
+                             "fm_category": "11",
+                             "custom_message": "freetext"
+                         }],
+                         "fm_flip_flap": [{
+                             "fm_flip_name": "flip_name",
+                             "fm_flip_category": "11",
+                             "fm_flip_custom_message": "freetext",
+                             "fm_flap_name": "flip_name",
+                             "fm_flap_category": "11",
+                             "fm_flap_custom_message": "freetext"
+                         }],
+                         "fm_pdf": [{
+                             "fm_name": null
+                         }],
+                         "fm_reference": false,
+                         "fm_video": [{
+                             "fm_name": null,
+                             "fm_total_duration": null
+                         }],
+                         "fm_animation": [{
+                             "fm_name": "graph5",
+                             "fm_duration": 500,
+                             "fm_trigger": "AUTO",
+                             "fm_id": "1",
+                             "fm_type": "graphc",
+                             "fm_order": "500"
+                         }]
+                     }
+         },
          "flows": {
              "flow1": ["fm_screen_id", "fm_screen_id"]
          },
