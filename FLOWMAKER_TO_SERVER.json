@@ -1,4 +1,5 @@
-[{
+[{       
+        "token": "%DjG^xLU!VE",
         "client": {
             "company": {
                 "gmt_offset": "60",
@@ -178,7 +179,7 @@
                     "2": "ROLE_USER"
                 },
                 "fm_spoken_language": "1",
-                "fm_position_name": "6",
+                "fm_position_name": "Project manager",
                 "fm_user_country": "381",
                 "fm_user_level": "1",
                 "fm_user_psoition": "6",
@@ -294,7 +295,7 @@
             "fm_project_country_id": "308",
             "fm_project_country_name": "Andorra",
             "fm_campaign_id": "5aa171d3c99e9",
-            "fm_camapaign_name": "",
+            "fm_campaign_name": "",
             "fm_source": "FM",
             "clm_id": "",
             "clm_name": "",
@@ -312,7 +313,7 @@
                 }],
                 "fm_presentation_origin": "MASTER",
                 "fm_presentation_name": "0308_Viipharma_AD_DIA_Setral",
-                "fm_presentation_thumbnail": "",
+                "fm_presentation_thumbnail": "http://new.flowmaker.io/project/grNjNu3_FE9TwZLH-4FdT4c_ets_aAP9uei/5aa171d3c9a1e/5aa183183e76c/preview/media/images/thumbnails/200x150.jpg",
                 "fm_presentation_deployement_date": "1520377200",
                 "fm_presentation_expiration_date": "1520290800",
                 "fm_presentation_approval_code": "",
@@ -358,7 +359,7 @@
                             "fm_level_importance": "must",
                             "fm_chapter": "Chapter10",
                             "fm_sub_chapter": "SubChapter00",
-                            "fm_thumbnail": "/home/divers/prod/local/web/project/grNjNu3_FE9TwZLH-4FdT4c_ets_aAP9uei/5aa171d3c9a1e/5aa183183e76c/media/1_10.00_full.png",
+                            "fm_thumbnail": "http://new.flowmaker.io/project/grNjNu3_FE9TwZLH-4FdT4c_ets_aAP9uei/5aa171d3c9a1e/5aa183183e76c/media/1_10.00_full.png",
                             "fm_datatrackname": "1_Chapter10_1_SubChapter00",
                             "fm_category_id": "2",
                             "fm_key_message": "Key message 1",
@@ -366,7 +367,40 @@
                             "fm_selling_steps_id": "",
                             "fm_custom_data": "",
                             "fm_product_id": "",
-                            "fm_reps_speech": "Training purpose 1"
+                            "fm_reps_speech": "Training purpose 1",
+                            "fm_popup": [{
+                                     "fm_name": "poup_name_1",
+                                     "fm_category": "11",
+                                     "custom_message": "freetext"
+                                 },
+                                 {
+                                     "fm_name": "poup_name_2",
+                                     "fm_category": "11",
+                                     "custom_message": "freetext"
+                                 }
+                             ],
+                             "fm_flip_flap": [{
+                                 "fm_flip_name": "flip_name",
+                                 "fm_flip_category": "11",
+                                 "fm_flip_custom_message": "freetext",
+                                 "fm_flap_name": "flip_name",
+                                 "fm_flap_category": "11",
+                                 "fm_flap_custom_message": "freetext"
+                             }],
+                             "fm_pdf": [{"fm_name": null}],
+                             "fm_reference": false,
+                             "fm_video": [{
+                                 "fm_name": null,
+                                 "fm_total_duration": null
+                             }],
+                             "fm_animation": [{
+                                 "fm_name": "graph5",
+                                 "fm_duration": 500,
+                                 "fm_trigger": "AUTO",
+                                 "fm_id": "1",
+                                 "fm_type": "graphc",
+                                 "fm_order": "500"
+                             }]
                         },
                         "5aa285431a7e1": {
                             "fm_screen_id": "5aa285431a7e1",
@@ -385,197 +419,42 @@
                             "fm_selling_steps_id": "",
                             "fm_custom_data": "",
                             "fm_product_id": "",
-                            "fm_reps_speech": "Training 3"
-                        },
-                        "5aa2854c1a8df": {
-                            "fm_screen_id": "5aa2854c1a8df",
-                            "fm_origin_version": "5aa284f72ebf4",
-                            "fm_screen_name": "",
-                            "fm_refer_to": "1_30.00",
-                            "fm_position_id": "1_30.00",
-                            "fm_level_importance": "must",
-                            "fm_chapter": "Chapter30",
-                            "fm_sub_chapter": "SubChapter00",
-                            "fm_thumbnail": "http://new.flowmaker.io/project/grNjNu3_FE9TwZLH-4FdT4c_ets_aAP9uei/5aa171d3c9a1e/5aa284f72ebf4/media/1_30.00_full.png",
-                            "fm_datatrackname": "1_Chapter30_1_SubChapter00",
-                            "fm_category_id": "5",
-                            "fm_key_message": "Key message 6",
-                            "fm_objective": "",
-                            "fm_selling_steps_id": "",
-                            "fm_custom_data": "",
-                            "fm_product_id": "",
-                            "fm_reps_speech": ""
-                        },
-                        "5aa2858c54e62": {
-                            "fm_screen_id": "5aa2858c54e62",
-                            "fm_origin_version": "5aa284f72ebf4",
-                            "fm_screen_name": "",
-                            "fm_refer_to": "1_30.10",
-                            "fm_position_id": "1_30.10",
-                            "fm_level_importance": "must",
-                            "fm_chapter": "Chapter30",
-                            "fm_sub_chapter": "SubChapter10",
-                            "fm_thumbnail": "http://new.flowmaker.io/project/grNjNu3_FE9TwZLH-4FdT4c_ets_aAP9uei/5aa171d3c9a1e/5aa284f72ebf4/media/1_30.10_full.png",
-                            "fm_datatrackname": "1_Chapter30_2_SubChapter10",
-                            "fm_category_id": "9",
-                            "fm_key_message": "",
-                            "fm_objective": "",
-                            "fm_selling_steps_id": "",
-                            "fm_custom_data": "",
-                            "fm_product_id": "",
-                            "fm_reps_speech": ""
-                        },
-                        "5aa2853a31a47": {
-                            "fm_screen_id": "5aa2853a31a47",
-                            "fm_origin_version": "5aa284f72ebf4",
-                            "fm_screen_name": "",
-                            "fm_refer_to": "1_40.00",
-                            "fm_position_id": "1_40.00",
-                            "fm_level_importance": "must",
-                            "fm_chapter": "Chapter40",
-                            "fm_sub_chapter": "SubChapter00",
-                            "fm_thumbnail": "http://new.flowmaker.io/project/grNjNu3_FE9TwZLH-4FdT4c_ets_aAP9uei/5aa171d3c9a1e/5aa284f72ebf4/media/1_40.00_full.png",
-                            "fm_datatrackname": "1_Chapter40_1_SubChapter00",
-                            "fm_category_id": "6",
-                            "fm_key_message": "",
-                            "fm_objective": "",
-                            "fm_selling_steps_id": "",
-                            "fm_custom_data": "",
-                            "fm_product_id": "",
-                            "fm_reps_speech": ""
-                        },
-                        "5aa2857045a3b": {
-                            "fm_screen_id": "5aa2857045a3b",
-                            "fm_origin_version": "5aa284f72ebf4",
-                            "fm_screen_name": "",
-                            "fm_refer_to": "1_50.00",
-                            "fm_position_id": "1_50.00",
-                            "fm_level_importance": "must",
-                            "fm_chapter": "Chapter50",
-                            "fm_sub_chapter": "SubChapter00",
-                            "fm_thumbnail": "http://new.flowmaker.io/project/grNjNu3_FE9TwZLH-4FdT4c_ets_aAP9uei/5aa171d3c9a1e/5aa284f72ebf4/media/1_50.00_full.png",
-                            "fm_datatrackname": "1_Chapter50_1_SubChapter00",
-                            "fm_category_id": "4",
-                            "fm_key_message": "",
-                            "fm_objective": "",
-                            "fm_selling_steps_id": "",
-                            "fm_custom_data": "",
-                            "fm_product_id": "",
-                            "fm_reps_speech": ""
-                        },
-                        "5aa2855483d6a": {
-                            "fm_screen_id": "5aa2855483d6a",
-                            "fm_origin_version": "5aa284f72ebf4",
-                            "fm_screen_name": "",
-                            "fm_refer_to": "1_50.10",
-                            "fm_position_id": "1_50.10",
-                            "fm_level_importance": "must",
-                            "fm_chapter": "Chapter50",
-                            "fm_sub_chapter": "SubChapter10",
-                            "fm_thumbnail": "http://new.flowmaker.io/project/grNjNu3_FE9TwZLH-4FdT4c_ets_aAP9uei/5aa171d3c9a1e/5aa284f72ebf4/media/1_50.10_full.png",
-                            "fm_datatrackname": "1_Chapter50_2_SubChapter10",
-                            "fm_category_id": "8",
-                            "fm_key_message": "",
-                            "fm_objective": "",
-                            "fm_selling_steps_id": "",
-                            "fm_custom_data": "",
-                            "fm_product_id": "",
-                            "fm_reps_speech": ""
-                        },
-                        "5aa2858779ef5": {
-                            "fm_screen_id": "5aa2858779ef5",
-                            "fm_origin_version": "5aa284f72ebf4",
-                            "fm_screen_name": "",
-                            "fm_refer_to": "1_60.00",
-                            "fm_position_id": "1_60.00",
-                            "fm_level_importance": "must",
-                            "fm_chapter": "Chapter60",
-                            "fm_sub_chapter": "SubChapter00",
-                            "fm_thumbnail": "http://new.flowmaker.io/project/grNjNu3_FE9TwZLH-4FdT4c_ets_aAP9uei/5aa171d3c9a1e/5aa284f72ebf4/media/1_60.00_full.png",
-                            "fm_datatrackname": "1_Chapter60_1_SubChapter00",
-                            "fm_category_id": "4",
-                            "fm_key_message": "",
-                            "fm_objective": "",
-                            "fm_selling_steps_id": "",
-                            "fm_custom_data": "",
-                            "fm_product_id": "",
-                            "fm_reps_speech": ""
-                        },
-                        "5aa28565c1b8e": {
-                            "fm_screen_id": "5aa28565c1b8e",
-                            "fm_origin_version": "5aa284f72ebf4",
-                            "fm_screen_name": "",
-                            "fm_refer_to": "1_70.00",
-                            "fm_position_id": "1_70.00",
-                            "fm_level_importance": "must",
-                            "fm_chapter": "Chapter70",
-                            "fm_sub_chapter": "SubChapter00",
-                            "fm_thumbnail": "http://new.flowmaker.io/project/grNjNu3_FE9TwZLH-4FdT4c_ets_aAP9uei/5aa171d3c9a1e/5aa284f72ebf4/media/1_70.00_full.png",
-                            "fm_datatrackname": "1_Chapter70_1_SubChapter00",
-                            "fm_category_id": "4",
-                            "fm_key_message": "",
-                            "fm_objective": "",
-                            "fm_selling_steps_id": "",
-                            "fm_custom_data": "",
-                            "fm_product_id": "",
-                            "fm_reps_speech": ""
-                        },
-                        "5aa2857a7dd93": {
-                            "fm_screen_id": "5aa2857a7dd93",
-                            "fm_origin_version": "5aa284f72ebf4",
-                            "fm_screen_name": "",
-                            "fm_refer_to": "1_80.00",
-                            "fm_position_id": "1_80.00",
-                            "fm_level_importance": "must",
-                            "fm_chapter": "Chapter80",
-                            "fm_sub_chapter": "SubChapter00",
-                            "fm_thumbnail": "http://new.flowmaker.io/project/grNjNu3_FE9TwZLH-4FdT4c_ets_aAP9uei/5aa171d3c9a1e/5aa284f72ebf4/media/1_80.00_full.png",
-                            "fm_datatrackname": "1_Chapter80_1_SubChapter00",
-                            "fm_category_id": "4",
-                            "fm_key_message": "",
-                            "fm_objective": "",
-                            "fm_selling_steps_id": "",
-                            "fm_custom_data": "",
-                            "fm_product_id": "",
-                            "fm_reps_speech": ""
-                        },
-                        "5aa285767960f": {
-                            "fm_screen_id": "5aa285767960f",
-                            "fm_origin_version": "5aa284f72ebf4",
-                            "fm_screen_name": "",
-                            "fm_refer_to": "1_90.00",
-                            "fm_position_id": "1_90.00",
-                            "fm_level_importance": "must",
-                            "fm_chapter": "Chapter90",
-                            "fm_sub_chapter": "SubChapter00",
-                            "fm_thumbnail": "http://new.flowmaker.io/project/grNjNu3_FE9TwZLH-4FdT4c_ets_aAP9uei/5aa171d3c9a1e/5aa284f72ebf4/media/1_90.00_full.png",
-                            "fm_datatrackname": "1_Chapter90_1_SubChapter00",
-                            "fm_category_id": "8",
-                            "fm_key_message": "",
-                            "fm_objective": "",
-                            "fm_selling_steps_id": "",
-                            "fm_custom_data": "",
-                            "fm_product_id": "",
-                            "fm_reps_speech": ""
-                        },
-                        "5aa2857e533c3": {
-                            "fm_screen_id": "5aa2857e533c3",
-                            "fm_origin_version": "5aa284f72ebf4",
-                            "fm_screen_name": "",
-                            "fm_refer_to": "1_90.10",
-                            "fm_position_id": "1_90.10",
-                            "fm_level_importance": "must",
-                            "fm_chapter": "Chapter90",
-                            "fm_sub_chapter": "SubChapter10",
-                            "fm_thumbnail": "http://new.flowmaker.io/project/grNjNu3_FE9TwZLH-4FdT4c_ets_aAP9uei/5aa171d3c9a1e/5aa284f72ebf4/media/1_90.10_full.png",
-                            "fm_datatrackname": "1_Chapter90_2_SubChapter10",
-                            "fm_category_id": "3",
-                            "fm_key_message": "",
-                            "fm_objective": "",
-                            "fm_selling_steps_id": "",
-                            "fm_custom_data": "",
-                            "fm_product_id": "",
-                            "fm_reps_speech": ""
+                            "fm_reps_speech": "Training 3",
+                            "fm_popup": [{
+                                     "fm_name": "poup_name_2",
+                                     "fm_category": "11",
+                                     "custom_message": "freetext"
+                                 },
+                                 {
+                                     "fm_name": "poup_name_2",
+                                     "fm_category": "11",
+                                     "custom_message": "freetext"
+                                 }
+                             ],
+                             "fm_flip_flap": [{
+                                 "fm_flip_name": "flip_name",
+                                 "fm_flip_category": "11",
+                                 "fm_flip_custom_message": "freetext",
+                                 "fm_flap_name": "flip_name",
+                                 "fm_flap_category": "11",
+                                 "fm_flap_custom_message": "freetext"
+                             }],
+                             "fm_pdf": [{
+                                 "fm_name": null
+                             }],
+                             "fm_reference": false,
+                             "fm_video": [{
+                                 "fm_name": null,
+                                 "fm_total_duration": null
+                             }],
+                             "fm_animation": [{
+                                 "fm_name": "graph5",
+                                 "fm_duration": 500,
+                                 "fm_trigger": "AUTO",
+                                 "fm_id": "1",
+                                 "fm_type": "graphc",
+                                 "fm_order": "500"
+                             }]
                         }
                     }
                 }]
@@ -1308,7 +1187,6 @@
                         "html": "<div class='questionBar' sm_question_id='Q29' type='button'> <div class='two question'> <span>Does your HCP suggest to his/her patients to join some support programs?</span> </div><select id='select'dropdown-question> <option value='Q28_a'>Yes, ours only</option> <option value='Q28_b'>Yes, but competitor's only</option> <option value='Q28_c'>Yes, several</option> <option value='Q28_d'>No, but interested</option><option value='Q28_e'>No and not interested</option><option value='Q28_f'>I don't know</option> </select></div>"
                     }
                 }
-            },
-        },
-        "token": "789456"
+            }
+        }
 }]
