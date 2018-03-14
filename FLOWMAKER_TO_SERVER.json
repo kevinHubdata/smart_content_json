@@ -3,14 +3,14 @@
         "client": {
             "company": {
                 "gmt_offset": "60",
-                "fm_company_id": "2",
+                "fm_company_id": "2", // ref.company -> externalCompanyId
                 "fm_company_name": "Viipharma",
                 "fm_region_list": {
-                    "EU": "EU",
-                    "NA": "NA"
+                    "EU": "EU", // ref.region -> externalRegionId // externalRegionName 
+                    "NA": "NA" 
                 },
                 "fm_country_list": {
-                    "308": "AD",
+                    "308": "AD", // ref.country -> externalCountryId // externalCountryCode
                     "313": "AL",
                     "320": "AT",
                     "323": "AX",
@@ -64,22 +64,22 @@
                     "540": "VA"
                 },
                 "fm_bu_list": {
-                    "1": "Diabete",
+                    "1": "Diabete", // ref.bu -> externalBuiD // externalBuName
                     "2": "Cardiovascular",
                     "3": "Oncology"
                 },
                 "fm_fm_access_date": "1506808800",
                 "fm_sm_access_date": "1506808800",
                 "fm_product_list": {
-                    "1": "Setral",
-                    "2": "Toujerto",
+                    "1": "Setral", // ref.product -> externalProductId // externalProductName
+                    "2": "Toujerto", 
                     "3": "Awani",
                     "4": "Banzenera",
                     "5": "Comigral",
                     "7": "Diatophage"
                 },
                 "fm_category_list": {
-                    "1": "Menu",
+                    "1": "Menu", // ref.category -> externalCategoryId // externalCategoryName
                     "2": "Introduction",
                     "3": "Epidemiology",
                     "4": "Mode of Action",
@@ -95,7 +95,7 @@
                     "2": "Mono"
                 },
                 "fm_crm_list": {
-                    "1": "Veeva",
+                    "1": "Veeva", // ref.systemSource -> externalSourceId // externalSourceName
                     "2": "Mi"
                 },
                 "fm_device_list": {
@@ -103,7 +103,7 @@
                     "2": "Ipad"
                 },
                 "fm_channel_list": {
-                    "1": "Edetailing"
+                    "1": "Edetailing" // ref.channel -> externalChannelId // externalChannelName
                 },
                 "fm_level_list": {
                     "1": "Global",
@@ -111,7 +111,7 @@
                     "3": "Country"
                 },
                 "fm_speciality_list": {
-                    "0": "Allergist",
+                    "0": "Allergist",  // ref.specliality -> externalSpecialityId // externalSpecialityName
                     "2": "Anesthetist",
                     "3": "Oncologist",
                     "4": "Cardiologist",
@@ -159,7 +159,7 @@
                     "6": "Project manager"
                 },
                 "fm_language_list": {
-                    "1": "FR",
+                    "1": "FR", 
                     "2": "EN",
                     "3": "DE",
                     "4": "ES",
@@ -286,23 +286,23 @@
             }
         },
         "project": {
-            "fm_project_id": "grNjNu3_FE9TwZLH-4FdT4c_ets_aAP9uei",
-            "fm_create_date": "1520529875",
-            "fm_project_product_id": "1",
+            "fm_project_id": "grNjNu3_FE9TwZLH-4FdT4c_ets_aAP9uei", // ref.project -> externalProjectId // externalProjectName
+            "fm_create_date": "1520529875",  // ref.project -> externalCreateDate
+            "fm_project_product_id": "1", 
             "fm_project_product_name": "Setral",
             "fm_project_bu_id": "1",
             "fm_project_bu_name": "Diabete",
-            "fm_project_country_id": "308",
+            "fm_project_country_id": "308", // ref.project -> externalCountryId
             "fm_project_country_name": "Andorra",
-            "fm_campaign_id": "5aa171d3c99e9",
+            "fm_campaign_id": "5aa171d3c99e9", // ref.campaign -> externalCampaignId // externalCampaignName
             "fm_campaign_name": "",
             "fm_source": "FM",
             "clm_id": "",
             "clm_name": "",
             "presentation": {
-                "fm_presentation_id": "5aa171d3c9a1e",
-                "fm_presentation_spoken_language": "1",
-                "fm_presentation_channel": "1",
+                "fm_presentation_id": "5aa171d3c9a1e", // ref.presentation -> externalPresentationId 
+                "fm_presentation_spoken_language": "1", 
+                "fm_presentation_channel": "1", // ref.presentation -> externalChannelId
                 "fm_presentation_reps_team_configuration": [{
                     "fm_reps_team_name": "",
                     "fm_product_portfolio": ["1"],
@@ -311,28 +311,31 @@
                     "fm_product_position": "1",
                     "fm_visited_hcp_id": ["2", "6", "3", "9", "12"]
                 }],
-                "fm_presentation_origin": "MASTER",
-                "fm_presentation_name": "0308_Viipharma_AD_DIA_Setral",
-                "fm_presentation_thumbnail": "http://new.flowmaker.io/project/grNjNu3_FE9TwZLH-4FdT4c_ets_aAP9uei/5aa171d3c9a1e/5aa183183e76c/preview/media/images/thumbnails/200x150.jpg",
-                "fm_presentation_deployement_date": "1520377200",
-                "fm_presentation_expiration_date": "1520290800",
+                "fm_presentation_origin": "MASTER", // ref.presentation -> externalOriginId,
+                "fm_presentation_master_id": "sdfsdfsdf", // ref.presentation -> externalMasterId,
+                "fm_presentation_master_name": "hjvhvhvhjvhv", // ref.presentation -> externalMasterName,
+                "fm_presentation_name": "0308_Viipharma_AD_DIA_Setral",  // ref.presentation -> externalName
+                "fm_presentation_thumbnail": "http://new.flowmaker.io/project/grNjNu3_FE9TwZLH-4FdT4c_ets_aAP9uei/5aa171d3c9a1e/5aa183183e76c/preview/media/images/thumbnails/200x150.jpg",// ref.presentation -> externalPresentationThumbnail
+                "fm_presentation_deployement_date": "1520377200", // ref.presentation -> externalDeployementDate
+                "fm_presentation_expiration_date": "1520290800", // ref.presentation -> externalExpirationDate
                 "fm_presentation_approval_code": "",
-                "fm_presentation_custom_name": "data_model_test",
+                "fm_presentation_custom_name": "data_model_test", // ref.presentation -> externalCustomName
                 "fm_presentation_product_id": "1",
                 "fm_presentation_product_name": "Setral",
                 "fm_presentation_bu_id": "1",
                 "fm_presentation_bu_name": "Diabete",
-                "fm_presentation_crm_id": "2",
-                "fm_presentation_crm_name": "Mi",
-                "fm_presentation_export_type": "2",
-                "fm_presentation_device_id": "2",
+                "fm_presentation_crm_id": "2", // ref.presentation -> externalCrmId
+                "fm_presentation_crm_name": "Mi", 
+                "fm_presentation_export_type": "2", 
+                "fm_presentation_device_id": "2", 
                 "fm_presentation_device_name": "Ipad",
-                "fm_presentation_custom_marketer_message": "",
+                "fm_presentation_custom_marketer_message": "", // ref.presentation -> externalCustomMktrMsg
                 "clm_presentation_id": "",
                 "clm_presentation_name": "",
-                "fm_version_id": "5aa183183e76c",
+                "fm_version_id": "5aa183183e76c", // ref.presentationVersion -> externalVersionId
+                "fm_version_number": "4", // ref.presentationVersion -> externalVersionNumber
                 "fm_version_detail": {
-                    "fm_version_generate_date": "1520529890",
+                    "fm_version_generate_date": "1520529890", // ref.presentationVersion -> externalGenerateDate
                     "fm_version_export_date": "",
                     "fm_version_flow_count": "1",
                     "fm_sm_lcr_active": "true",
@@ -340,34 +343,34 @@
                 }
             },
             "sequence": [{
-                "fm_sequence_id": "5aa171d3c9a53",
-                "fm_sequence_name": "0308_Viipharma_AD_DIA_Setral",
+                "fm_sequence_id": "5aa171d3c9a53", // ref.sequence -> externalSequenceId
+                "fm_sequence_name": "0308_Viipharma_AD_DIA_Setral", // ref.sequence -> externalSequenceName
                 "fm_sequence_version": "5aa171d3c9a87",
                 "fm_sequence_is_shared": "",
                 "flows": [{
-                    "id": "flow1",
-                    "custom_name": "flow1",
+                    "id": "flow1", // ref.flow -> externalFlowId
+                    "custom_name": "flow1", // ref.flow -> externalFlowName
                     "fm_flows_thumbnail": "",
                     "marketers_custom_message": "",
                     "screen": {
                         "5aa171e2474d7": {
-                            "fm_screen_id": "5aa171e2474d7",
-                            "fm_origin_version": "5aa171d3c99b4",
-                            "fm_screen_name": "",
+                            "fm_screen_id": "5aa171e2474d7", // ref.screen -> externalScreenId
+                            "fm_origin_version": "5aa171d3c99b4", // ref.screen -> externalScreenId
+                            "fm_screen_name": "", // ref.screen -> externalScreenName
                             "fm_refer_to": "1_10.00",
-                            "fm_position_id": "1_10.00",
-                            "fm_level_importance": "must",
-                            "fm_chapter": "Chapter10",
-                            "fm_sub_chapter": "SubChapter00",
-                            "fm_thumbnail": "http://new.flowmaker.io/project/grNjNu3_FE9TwZLH-4FdT4c_ets_aAP9uei/5aa171d3c9a1e/5aa183183e76c/media/1_10.00_full.png",
-                            "fm_datatrackname": "1_Chapter10_1_SubChapter00",
-                            "fm_category_id": "2",
-                            "fm_key_message": "Key message 1",
+                            "fm_position_id": "1_10.00", // ref.screen -> externalPositionId
+                            "fm_level_importance": "must", // ref.screen -> externalLevelImportance
+                            "fm_chapter": "Chapter10", // ref.screen -> externalChapterName
+                            "fm_sub_chapter": "SubChapter00", // ref.screen -> externalSubChapterName
+                            "fm_thumbnail": "http://new.flowmaker.io/project/grNjNu3_FE9TwZLH-4FdT4c_ets_aAP9uei/5aa171d3c9a1e/5aa183183e76c/media/1_10.00_full.png", // ref.screen -> externalThumbnail
+                            "fm_datatrackname": "1_Chapter10_1_SubChapter00", // ref.screen -> externalDatatrackname
+                            "fm_category_id": "2", // ref.screen -> externalScreenCategoryId
+                            "fm_key_message": "Key message 1", // ref.screen -> externalKeyMessage
                             "fm_objective": "",
                             "fm_selling_steps_id": "",
                             "fm_custom_data": "",
-                            "fm_product_id": "",
-                            "fm_reps_speech": "Training purpose 1",
+                            "fm_product_id": "", // ref.screen_product -> productId
+                            "fm_reps_speech": "Training purpose 1", // ref.screen -> externalTrainingMessage
                             "fm_popup": [{
                                      "fm_name": "poup_name_1",
                                      "fm_category": "11",
@@ -598,16 +601,17 @@
                 },
                 "questions_list": {
                     "Q1": {
-                        "id": "Q1",
-                        "question_name": "What is your HCP Gender ?",
-                        "answer_type": "button",
+                        "id": "Q1", // ref.question -> externalQuestionId,
+                        "question_name": "What is your HCP Gender ?", // ref.question -> externalQuestionName,
+                        "answer_type": "button", 
                         "answer_value": "",
                         "answers_id": {
-                            "Q1_a": "Female"
+                            "Q1_a": "Female" // ref.answer -> externalAnswerId // externalAnswerName ,
                         },
-                        "level_id": "HCP",
+                        "level_id": "HCP", // ref.question -> externalQuestionLevelName
                         "sub_level_id": "",
-                        "recurrency": "0",
+                        "recurrency": "0", // ref.question -> externalQuestionRecurrency,
+                        "fm_question_speciality_id": [1,2,4] // ref.question -> externalSpecialty
                         "expiration_date": "",
                         "weight": "0",
                         "order": "1",
