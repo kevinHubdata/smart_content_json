@@ -36,8 +36,8 @@
               "crm_mv_lastname": "CARTER_085UK"
           },
           "hcp": [{
-              "id": "70000043530063",
-              "crm_onekey": "WUKM00021591",
+              "id": "70000043530063",  
+              "crm_onekey": "WUKM00021591", // lt.call_hcp -> externalHcpList
               "crm_firstname": "Tabassan",
               "crm_lastname": "Abbas-Wright",
               "crm_email": "tabassa.abbas-wright@yahoo.com",
