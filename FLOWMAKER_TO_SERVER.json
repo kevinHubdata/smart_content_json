@@ -348,16 +348,19 @@
                 "fm_sequence_version": "5aa171d3c9a87",
                 "fm_sequence_is_shared": "",
                 "flows": [{
-                    "id": "flow1", // ref.flow -> externalFlowId
+                    "id": "flow1", // ref.flow -> externalFlowId || // ref.screen -> externalFlowId
                     "custom_name": "flow1", // ref.flow -> externalFlowName
                     "fm_flows_thumbnail": "",
                     "marketers_custom_message": "",
                     "screen": {
                         "5aa171e2474d7": {
                             "fm_screen_id": "5aa171e2474d7", // ref.screen -> externalScreenId
+                            "fm_master_screen_id": null,
+                            "fm_refer_to_screen_id": null,
+                            "fm_flow_id": "flow1",
                             "fm_origin_version": "5aa171d3c99b4", // ref.screen -> externalScreenId
                             "fm_screen_name": "", // ref.screen -> externalScreenName
-                            "fm_refer_to": "1_10.00",
+                            "fm_refer_to": "1_10.00", // ref.screen -> externalReferTo
                             "fm_position_id": "1_10.00", // ref.screen -> externalPositionId
                             "fm_level_importance": "must", // ref.screen -> externalLevelImportance
                             "fm_chapter": "Chapter10", // ref.screen -> externalChapterName
