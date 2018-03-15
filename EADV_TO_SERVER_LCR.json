@@ -47,10 +47,11 @@
                 "Q07": {"value": null,"answer_date": "25/10/04 18:03:07 GMT+0200" , "display": true,"never_asked_since": "-1","product_id":"prod1","mandatory":false},
                 "Q08": {"value": null,"answer_date": "25/10/04 18:03:07 GMT+0200" , "display": false,"never_asked_since": "0","product_id":"prod1","mandatory":false} // tl.LCR -> externalProductId
             },
-            "discussed_nonclm_presentation": ["Prod1", "Prod2", "Prod3"],// a remplacer
+            "discussed_nonclm_presentation": ["Prod1", "Prod2", "Prod3"],// tl.call_oralProducts -> externalProductId
             "next_call_topic": {
-                "Prod1": {
+                "Prod1": {  // tl.lcr -> externalNextCallSuggestion
                     "state": "talk",
+                     "presentation_id": "5465456",
                     "category": ["cat1", "cat2", "cat3"]
                 },
                 "Prod3": {
