@@ -1,6 +1,6 @@
 {
     "cust22": { 
-        "customer_id": "uniq id",
+        "customer_id": "uniq id", // hcp -> externalHcpId
         "type": "PUT or GET",
         "put_date": "1513869023045",
         "get_date": "1513869067889",
@@ -19,11 +19,11 @@
             "crm_mv_firstname": "Tabassan",
             "crm_mv_lastname": "Abbas-Wright",
             "crm_mv_potential": "H",
-            "crm_mv_segment": "Potential",
+            "crm_mv_segment": "Potential", // ref.potentialClient -> externalPotentialCode
             "sm_lcr_gender": "male",
             "sm_lcr_phone": "01 45 65 45 32",
             "sm_lcr_mail": "tabassan.wright@yahoo.fr",
-            "crm_speciality": "ua04"
+            "crm_speciality": "ua04" // ref.speciality -> externalSpecialityCode
 
         },
         "call": [{
@@ -36,7 +36,7 @@
             "lcr_presentation_interest": 10,
             "lcr_reps_comments": "free text",
             "reps": {
-                "crm_mv_firstname": " Vince",
+                "crm_mv_firstname": "Vince",
                 "crm_mv_lastname": "CARTER_085UK"
             },
             "questions": {
@@ -45,7 +45,7 @@
                 "Q04": {"value": 60,"answer_date": "25/10/04 18:03:07 GMT+0200" , "display": true,"never_asked_since": "0","product_id":"prod1","mandatory":false},
                 "Q05": {"value": null,"answer_date": "25/10/04 18:03:07 GMT+0200" , "display": true,"never_asked_since": "-5","product_id":"prod1","mandatory":false},
                 "Q07": {"value": null,"answer_date": "25/10/04 18:03:07 GMT+0200" , "display": true,"never_asked_since": "-1","product_id":"prod1","mandatory":false},
-                "Q08": {"value": null,"answer_date": "25/10/04 18:03:07 GMT+0200" , "display": false,"never_asked_since": "0","product_id":"prod1","mandatory":false}
+                "Q08": {"value": null,"answer_date": "25/10/04 18:03:07 GMT+0200" , "display": false,"never_asked_since": "0","product_id":"prod1","mandatory":false} // tl.LCR -> externalProductId
             },
             "discussed_nonclm_presentation": ["Prod1", "Prod2", "Prod3"],// a remplacer
             "next_call_topic": {
