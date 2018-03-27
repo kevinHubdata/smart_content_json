@@ -1,9 +1,7 @@
 {
     "cust22": { 
-        "customer_id": "uniq id",
-        "type": "PUT or GET",
-        "put_date": "1513869023045",
-        "get_date": "1513869067889",
+        "customer_id": "onekeyid",
+        "synchro_date": 1514913814913,
         "gmt_offset": "-60",
         "server_total_call": 12,
         "server_total_call_presentation":{
@@ -24,7 +22,6 @@
             "sm_lcr_phone": "01 45 65 45 32",
             "sm_lcr_mail": "tabassan.wright@yahoo.fr",
             "crm_speciality": "ua04"
-
         },
         "call": [{
             "callDate": "1513869067889",
@@ -37,7 +34,8 @@
             "lcr_reps_comments": "free text",
             "reps": {
                 "crm_mv_firstname": " Vince",
-                "crm_mv_lastname": "CARTER_085UK"
+                "crm_mv_lastname": "CARTER_085UK",
+                "team_id": "diabete_1",
             },
             "questions": {
                 "Q00": {"value":"Q00_a1;Q00_a2;Q00_a3","answer_date": "25/10/04 18:03:07 GMT+0200" , "display": true, "never_asked_since":"0", "product_id":"prod1","mandatory":false},
