@@ -172,24 +172,28 @@
                          {
                            "team_id": 1,
                            "team_name": "Diabete1",
-                            "products":[1,2]
+                           "products":[1,2],
+                           "bu_id": 1
                          },
                          {
                            "team_id": 2,
                            "team_name": "Diabete2",
-                            "products":[1,3]
+                           "products":[1,3],
+                           "bu_id": 1
                          }
                       ],
                      "328" :[
                          {
                            "team_id": 3,
                            "team_name": "Cardio1",
-                            "products":[6,7]
+                            "products":[6,7],
+                            "bu_id": 1
                          },
                          {
                            "team_id": 4,
                            "team_name": "CArdio2",
-                            "products":[5,7]
+                           "products":[5,7],
+                           "bu_id": 1
                          }
                       ]
                 }
